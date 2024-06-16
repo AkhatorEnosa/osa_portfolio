@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-div {
+    background-color: rgba(255,255,255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.project-backdrop {
+    background-color: rgba(38, 42, 64, 0.8 );
+    backdrop-filter: blur(5px);
+}
