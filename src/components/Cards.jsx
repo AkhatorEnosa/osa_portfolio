@@ -6,7 +6,7 @@ const Cards = (props) => {
 
   return (
     
-    <div className='card flex flex-col justify-between gap-4 items-center shadow-lg py-5 rounded-lg bg-white cursor-pointer opacity-85 skew-x-6'>
+    <div className='card flex flex-col justify-between gap-4 items-center shadow-lg py-5 rounded-lg bg-white text-[#262a40] cursor-pointer opacity-85 skew-x-6'>
 
         <h2 className='text-2xl font-thin text-center tracking-wider border-b-2 px-4 mb-5'>{props.heading}</h2>
 
