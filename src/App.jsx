@@ -7,7 +7,6 @@ import Sidebar from "./components/Sidebar";
 import About from "./components/About";
 import SplitType from "split-type";
 import Nav from "./components/Nav";
-// import Footer from "./components/Footer";
 
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
@@ -19,7 +18,11 @@ function App() {
   useGSAP(() => {
     var tl = gsap.timeline();
 
-    tl.to(".hero-heading", {
+    tl.to(".logo", {
+      transform: "rotate(0deg)",
+      opacity: 1,
+      duration: 1
+    }).to(".hero-heading", {
       opacity: 0,
       duration: 0.5,
       delay: 1,
@@ -54,8 +57,7 @@ function App() {
         ease: "power3.inOut",
         scrollTrigger: {
           trigger: ".about-me",
-          start: "top", // start when the top of the <h1> reaches 70% down from the top of the viewport
-          end: "top 30%",
+          start: "-20%", // start when the top of the <h1> reaches 70% down from the top of the viewport
           // toggleActions: "none none none reverse"
         }
       })
@@ -70,7 +72,6 @@ function App() {
       <Hero />
       <About />
       <Projects />
-      {/* <Footer /> */}
     </div>
   )
 }
