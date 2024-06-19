@@ -10,8 +10,8 @@ const Page = () => {
 
   return (
     <section  className='relative projects w-full h-screen bg-[#6aff7f]'>
-      <div className="w-full flex flex-col justify-center items-center py-20 md:py-40 bg-[#6aff7f] px-36 overflow-hidden">
-        <h1 className="text-7xl md:text-9xl font-medium text-[#003816]">Projects</h1>
+      <div className="w-full flex flex-col justify-center items-center py-20 md:py-30 lg:py-40 bg-[#6aff7f] px-36 overflow-hidden">
+        <h1 className="text-7xl lg:text-9xl font-extrabold text-[#003816]">Projects</h1>
       </div>
       <div className="projects-content w-full bg-[#003816] text-[#6aff7f] py-28 overflow-scroll">
         

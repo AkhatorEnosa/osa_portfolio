@@ -6,13 +6,13 @@ const Cards = (props) => {
 
   return (
     
-    <div className='card flex flex-col justify-between gap-4 items-center shadow-lg py-5 rounded-lg bg-white text-[#262a40] cursor-pointer opacity-85 skew-x-6'>
+    <div className='card flex flex-col justify-between gap-4 items-center shadow-lg py-5 rounded-lg bg-white text-[#003816] cursor-pointer opacity-85'>
 
         <h2 className='text-2xl font-thin text-center tracking-wider border-b-2 px-4 mb-5'>{props.heading}</h2>
 
         <div className='relative w-full group overflow-hidden'>
           <img src={props.imagePath} alt={props.alt} className='h-auto w-full object-cover group-hover:scale-105 transition-all duration-500'/>
-          <div className="hidden project-backdrop lg:group-hover:flex absolute inset-0 bg-[#003816] opacity-90 transition-all duration-500"></div>
+          <div className="hidden project-backdrop lg:group-hover:flex absolute inset-0 bg-[#0a192f] opacity-90 transition-all duration-500"></div>
           <div className="hidden font-extralight lg:group-hover:flex absolute inset-0 justify-center text-center items-center z-10 p-5 transition-all duration-500">
               <h2 className="text-white">{props.details}</h2>
           </div>
@@ -36,5 +36,3 @@ const Cards = (props) => {
 }
 
 export default Cards
-// 6aff7f
-// 003816

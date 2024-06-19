@@ -6,7 +6,7 @@ import Hero from "./components/Hero";
 import Sidebar from "./components/Sidebar";
 import About from "./components/About";
 import SplitType from "split-type";
-// import Nav from "./components/Nav";
+import Nav from "./components/Nav";
 // import Footer from "./components/Footer";
 
 gsap.registerPlugin(useGSAP);
@@ -33,33 +33,30 @@ function App() {
       duration: 1
     }).to(".card", {
       scrollTrigger: {
-        trigger: ".projects-content",
+        trigger: ".projects",
         scrub: 1,
-        start: "top 80%",
-        end: "bottom bottom",
+        start: "top",
+        end: "4%",
       },
-        stagger: 1,
-      skewX: "0deg",
       opacity: 1,
-      boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
       duration: 1,
     })
     
 
   const ourText = new SplitType('p.about-text')
-  const words = ourText.words
+  const words = ourText.lines
 
 
       gsap.from(words, {
         opacity:0,
-        duration: 2, 
+        duration: 1, 
         stagger: 0.1, 
         ease: "power3.inOut",
         scrollTrigger: {
           trigger: ".about-me",
-          start: "top top", // start when the top of the <h1> reaches 70% down from the top of the viewport
-          end: "bottom bottom",
-          toggleActions: "restart none none reverse"
+          start: "top -20%", // start when the top of the <h1> reaches 70% down from the top of the viewport
+          end: "top",
+          // toggleActions: "none none none reverse"
         }
       })
 
@@ -68,7 +65,7 @@ function App() {
 
   return (
     <div className="w-full flex flex-col">
-      {/* <Nav /> */}
+      <Nav />
       <Sidebar />
       <Hero />
       <About />
