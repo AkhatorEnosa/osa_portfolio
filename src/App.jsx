@@ -37,7 +37,6 @@ function App() {
         scrub: 1,
         start: "top 80%",
         end: "bottom bottom",
-        markers: true
       },
         stagger: 1,
       skewX: "0deg",
