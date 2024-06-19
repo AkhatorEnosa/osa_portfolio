@@ -9,11 +9,11 @@ import Kickrs from '../assets/kickrs.png'
 const Page = () => {
 
   return (
-    <section  className='relative projects w-full h-screen bg-[#ff6a25]'>
-      <div className="w-full flex flex-col justify-center items-center py-40 bg-[#ff6a25] px-36 overflow-hidden">
-        <h1 className="text-9xl font-medium text-[#262a40]">Projects</h1>
+    <section  className='relative projects w-full h-screen bg-[#6aff7f]'>
+      <div className="w-full flex flex-col justify-center items-center py-20 md:py-40 bg-[#6aff7f] px-36 overflow-hidden">
+        <h1 className="text-7xl md:text-9xl font-medium text-[#003816]">Projects</h1>
       </div>
-      <div className="projects-content w-full bg-[#262a40] text-[#ff6a25] py-28 overflow-scroll">
+      <div className="projects-content w-full bg-[#003816] text-[#6aff7f] py-28 overflow-scroll">
         
 
           <div className=" w-full flex flex-col justify-center items-center h-full px-10 lg:px-32">
@@ -33,9 +33,8 @@ const Page = () => {
 }
 
 export default Page
-
-// ff6a25
-// 262a40
+// 6aff7f
+// 003816
 
 
           // <div className="w-full overflow-scroll">
