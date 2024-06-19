@@ -54,8 +54,8 @@ function App() {
         ease: "power3.inOut",
         scrollTrigger: {
           trigger: ".about-me",
-          start: "top -20%", // start when the top of the <h1> reaches 70% down from the top of the viewport
-          end: "top",
+          start: "top", // start when the top of the <h1> reaches 70% down from the top of the viewport
+          end: "top 30%",
           // toggleActions: "none none none reverse"
         }
       })
