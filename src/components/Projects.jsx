@@ -10,14 +10,14 @@ const Page = () => {
 
   return (
     <section  className='relative projects w-full h-screen bg-[#6aff7f]'>
-      <div className="w-full flex flex-col justify-center items-center py-20 md:py-30 lg:py-40 bg-[#6aff7f] px-36 overflow-hidden">
-        <h1 className="text-7xl lg:text-9xl font-extrabold text-[#003816] text-center">Projects</h1>
+      <div className="w-full flex flex-col justify-center items-center py-10 md:py-32 lg:py-40 bg-[#6aff7f] px-0  md:px-36">
+        <h1 className="text-5xl md:text-7xl lg:text-9xl font-extrabold text-[#003816] text-center">Projects</h1>
       </div>
-      <div className="projects-content w-full bg-[#003816] text-[#6aff7f] py-28 overflow-scroll">
+      <div className="projects-content w-full bg-[#003816] text-[#6aff7f] py-10 md:py-20 overflow-scroll">
         
 
-          <div className=" w-full flex flex-col justify-center items-center h-full px-10 lg:px-32">
-            <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-8 p-5'>
+          <div className="w-full flex flex-col justify-center items-center h-full px-0 md:px-10 lg:px-32">
+            <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-8 p-0 md:p-5'>
 
               <Cards heading="Space Tourism" imagePath={SpaceTourism} alt="Space Tourism" details="Space Theme Tourism website."  stack="html . css" demoLink="https://spacetourtravel.netlify.app/" codeLink="https://github.com/AkhatorEnosa/space-tourism-website-main"/>
               <Cards heading="Splitter" imagePath={Splitter} alt="Splitter" details="This project is based around building a web app to easily split bills between two or more persons including tips(if needed)" stack="html . css . js" demoLink="https://splitify.netlify.app/" codeLink="https://github.com/AkhatorEnosa/bill-splitter-app"/>
