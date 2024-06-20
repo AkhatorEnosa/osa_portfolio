@@ -2,7 +2,7 @@ const About = () => {
   return (
     <section  className='relative about-me w-full bg-[#6aff7f]'>
       <div className="w-full flex flex-col justify-center items-center py-20 md:py-30 lg:py-40 bg-[#6aff7f] px-36 overflow-hidden">
-        <h1 className="text-7xl lg:text-9xl font-extrabold text-[#003816]">About Me</h1>
+        <h1 className="text-7xl lg:text-9xl font-extrabold text-[#003816] text-center">About Me</h1>
       </div>
       <div className="w-full h-fit bg-[#003816] text-[#6aff7f] py-28 overflow-scroll">
           <div className=" w-full flex flex-col justify-center items-center h-full px-10 lg:px-32">
