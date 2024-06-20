@@ -5,8 +5,7 @@ import TechStack from "./TechStack"
 const Cards = (props) => {
 
   return (
-    <div className="lg:perspective-1600">
-      <div className='card lg:w-[500px] flex flex-col justify-between gap-4 items-center py-5 rounded-lg bg-white text-[#003816] cursor-pointer opacity-85 lg:shadow-sm lg:hover:shadow-none lg:transform lg:rotate-x-30 lg:hover:rotate-x-0 transition-all duration-500'>
+      <div className='card lg:w-[500px] flex flex-col justify-between gap-4 items-center py-5 rounded-lg bg-white text-[#003816] cursor-pointer opacity-85 lg:shadow-sm lg:hover:shadow-none transition-all duration-500'>
 
           <h2 className='text-2xl font-thin text-center tracking-wider border-b-2 px-4 mb-5'>{props.heading}</h2>
 
@@ -32,7 +31,6 @@ const Cards = (props) => {
           </div>
 
       </div>
-    </div>
   )
 }
 
