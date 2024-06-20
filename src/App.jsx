@@ -66,7 +66,7 @@ function App() {
   })
 
   return (
-    <div className="w-full flex flex-col">
+    <div className="w-full flex flex-col overflow-hidden">
       <Nav />
       <Sidebar />
       <Hero />
