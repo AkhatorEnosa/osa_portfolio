@@ -21,7 +21,8 @@ function App() {
     tl.to(".logo", {
       transform: "rotate(0deg)",
       opacity: 1,
-      duration: 1
+      duration: 1,
+      pin: ".about-me"
     }).to(".hero-heading", {
       opacity: 0,
       duration: 0.5,
@@ -43,6 +44,9 @@ function App() {
       },
       opacity: 1,
       duration: 1,
+    }).to(".side-bar", {
+      opacity: 1,
+      delay: -5
     })
     
 
