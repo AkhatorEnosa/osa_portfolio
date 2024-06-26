@@ -7,6 +7,7 @@ import Sidebar from "./components/Sidebar";
 import About from "./components/About";
 import SplitType from "split-type";
 import Nav from "./components/Nav";
+import Spaceman from "./components/Spaceman";
 
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
@@ -22,19 +23,30 @@ function App() {
       transform: "rotate(0deg)",
       opacity: 1,
       duration: 1,
-      pin: ".about-me"
-    }).to(".hero-heading", {
-      opacity: 0,
-      duration: 0.5,
-      delay: 1,
+    }).to("#stars", {
+      opacity: 0.5,
+      yoyo: true,
+      yoyoEase: "power",
+      repeat: -1,
+      duration: 4
+    }).to(".hero", {
+      backgroundColor: "black",
+      scrollTrigger: {
+        trigger: ".about-me",
+        scrub: true
+      }
     }).to(".hero-content", {
       opacity: 1,
       stagger: 1,
-    }).to(".bounce", {
-      y: 10,
-      repeat: -1,
-      yoyo: true,
-      duration: 1
+      delay: -2
+    }).from(".about-me-content", {
+      backgroundColor: "black",
+      scrollTrigger: {
+        start: "top -30%",
+        end: "bottom bottom",
+        scrub: true,
+        pin: true
+      }
     }).to(".card", {
       scrollTrigger: {
         trigger: ".projects",
@@ -74,6 +86,7 @@ function App() {
       <Nav />
       <Sidebar />
       <Hero />
+      <Spaceman />
       <About />
       <Projects />
     </div>
