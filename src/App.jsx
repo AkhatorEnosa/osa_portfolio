@@ -28,7 +28,7 @@ function App() {
       yoyo: true,
       yoyoEase: "power",
       repeat: -1,
-      duration: 4
+      duration: 2
     }).to(".hero", {
       backgroundColor: "black",
       scrollTrigger: {
@@ -45,7 +45,14 @@ function App() {
         start: "top -30%",
         end: "bottom bottom",
         scrub: true,
-        pin: true
+      }
+    }).from(".projects-content", {
+      backgroundColor: "black",
+      scrollTrigger: {
+        trigger: ".projects",
+        start: "top -30%",
+        scrub: true,
+        markers: true
       }
     }).to(".card", {
       scrollTrigger: {
