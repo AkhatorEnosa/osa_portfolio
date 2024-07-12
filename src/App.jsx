@@ -52,7 +52,6 @@ function App() {
         trigger: ".projects",
         start: "top -30%",
         scrub: true,
-        markers: true
       }
     }).to(".card", {
       scrollTrigger: {
