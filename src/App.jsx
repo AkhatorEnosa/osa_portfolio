@@ -23,12 +23,6 @@ function App() {
       transform: "rotate(0deg)",
       opacity: 1,
       duration: 1,
-    }).to("#stars", {
-      opacity: 0.5,
-      yoyo: true,
-      yoyoEase: "power",
-      repeat: -1,
-      duration: 2,
     }).to(".hero", {
       backgroundColor: "black",
       scrollTrigger: {
@@ -93,6 +87,13 @@ function App() {
       gsap.from(".stars", {
         scale: 0,
         duration: 1,
+    })
+      gsap.to("#stars", {
+      opacity: 0.5,
+      yoyo: true,
+      yoyoEase: "power",
+      repeat: -1,
+      duration: 2,
     })
 
 
