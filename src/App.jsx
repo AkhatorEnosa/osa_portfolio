@@ -39,7 +39,6 @@ function App() {
       yoyoEase: "power",
       repeat: -1,
       duration: 2,
-    delay: -3
     }).from(".about-me-content", {
       backgroundColor: "black",
       scrollTrigger: {
