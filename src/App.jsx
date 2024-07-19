@@ -63,8 +63,11 @@ function App() {
       opacity: 1,
       duration: 1,
     }).to(".side-bar", {
-      opacity: 1,
-      delay: -5
+      scrollTrigger: {
+          trigger: ".about-me",
+          opacity: 1,
+          delay: -5
+      }
     })
     
 
