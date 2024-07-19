@@ -33,10 +33,6 @@ function App() {
       opacity: 1,
       stagger: 1,
       delay: -2
-    }).from(".stars", {
-      scale: 0,
-      duration: 2,
-        delay: -3
     }).to("#stars", {
       opacity: 0.5,
       yoyo: true,
