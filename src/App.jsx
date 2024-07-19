@@ -68,7 +68,8 @@ function App() {
       scrollTrigger: {
           trigger: ".about-me",
             start: "top",
-            end: "top"
+            end: "top",
+          scrub: true
       }
     })
     
