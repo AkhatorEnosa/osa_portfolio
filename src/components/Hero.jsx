@@ -3,7 +3,7 @@
 
 const Hero = () => {
   return (
-    <section  className="hero w-full flex flex-col justify-center h-screen items-center bg-[#003816] text-[#6aff7f] overflow-hidden">
+    <section  className="hero w-full flex flex-col justify-center h-screen items-center bg-[#003816] text-[#6aff7f] overflow-hidden z-30">
         {/* <h1 className="hero-heading text-7xl md:text-9xl tracking-tighter font-extrabold">Hello</h1> */}
         <div className="absolute w-full flex flex-col justify-center items-center px-5 md:px-40 gap-2 text-center">
             <p className="hero-content uppercase opacity-0">I am</p>
