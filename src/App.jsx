@@ -32,7 +32,7 @@ function App() {
     }).to(".hero-content", {
       opacity: 1,
       stagger: 1,
-      delay: -2
+      delay: -5
     }).to("#stars", {
       opacity: 0.5,
       yoyo: true,
