@@ -92,7 +92,7 @@ function App() {
 
       gsap.from(".stars", {
         scale: 0,
-        duration: 1,
+        duration: 2,
     })
 
 
