@@ -1,6 +1,6 @@
 const Spaceman = () => {
   return (
-    <div className="absolute w-full h-screen justify-end items-center flex z-50">
+    <div className="stars absolute w-full h-screen justify-end items-center flex z-50">
         <svg className="abdolute w-full h-full" viewBox="0 0 693 616" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="stars" className="scale-150 w-full h-full">
             <path id="Vector" d="M0.309998 90.94C0.248443 91.1959 0.143603 91.4394 0 91.66V88.87C0.365156 89.4946 0.476146 90.2358 0.309998 90.94Z" fill="#FF6584"/>
