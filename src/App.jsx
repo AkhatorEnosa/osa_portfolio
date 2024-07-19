@@ -23,9 +23,6 @@ function App() {
       transform: "rotate(0deg)",
       opacity: 1,
       duration: 1,
-    }).from(".stars", {
-        scale: 0,
-      duration: 2,
     }).to("#stars", {
       opacity: 0.5,
       yoyo: true,
@@ -92,6 +89,11 @@ function App() {
           // toggleActions: "none none none reverse"
         }
       })
+
+      gsap.from(".stars", {
+        scale: 0,
+        duration: 2,
+    })
 
 
   })
