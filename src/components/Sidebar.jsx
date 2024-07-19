@@ -1,7 +1,7 @@
 import { BsFillPersonLinesFill } from "react-icons/bs"
 import { FaGithub, FaLinkedin } from "react-icons/fa6"
 import { HiOutlineMail } from "react-icons/hi"
-import Cv from '../assets/Akhator_Osakhogba.pdf';
+import Cv from '../assets/Osakhogba_Akhator.pdf';
 import { FaAngleDoubleDown } from "react-icons/fa";
 
 const Sidebar = () => {
