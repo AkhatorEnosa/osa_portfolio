@@ -1,8 +1,8 @@
 const Spaceman = () => {
   return (
     <div className="stars absolute w-full h-screen justify-end items-center flex z-50">
-<svg width="565" height="347" viewBox="0 0 565 347" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="stars-all" clip-path="url(#clip0_2_2)">
+<svg  className="abdolute w-full h-full" viewBox="0 0 693 616" fill="none"  xmlns="http://www.w3.org/2000/svg">
+<g id="stars-all" clip-path="url(#clip0_2_2)" className="scale-150 w-full h-full">
 <g id="stars">
 <path id="Vector" d="M0.309998 51.94C0.248443 52.1959 0.143603 52.4394 0 52.66V49.87C0.365156 50.4946 0.476146 51.2358 0.309998 51.94Z" fill="#FF6584"/>
 <path id="Vector_2" d="M8.20079 62.532C8.40144 60.7363 7.55144 59.1674 6.30226 59.0279C5.05309 58.8883 3.87777 60.2308 3.67713 62.0265C3.47648 63.8222 4.32648 65.3911 5.57566 65.5306C6.82483 65.6702 8.00015 64.3277 8.20079 62.532Z" fill="#E6E6E6"/>
