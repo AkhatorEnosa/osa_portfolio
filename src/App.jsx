@@ -35,13 +35,15 @@ function App() {
       delay: -2
     }).from(".stars", {
       scale: 0,
-      duration: 2
+      duration: 2,
+        delay: -3
     }).to("#stars", {
       opacity: 0.5,
       yoyo: true,
       yoyoEase: "power",
       repeat: -1,
-      duration: 2
+      duration: 2,
+    delay: -3
     }).from(".about-me-content", {
       backgroundColor: "black",
       scrollTrigger: {
