@@ -23,12 +23,6 @@ function App() {
       transform: "rotate(0deg)",
       opacity: 1,
       duration: 1,
-    }).to("#stars", {
-      opacity: 0.5,
-      yoyo: true,
-      yoyoEase: "power",
-      repeat: -1,
-      duration: 2
     }).to(".hero", {
       backgroundColor: "black",
       scrollTrigger: {
@@ -39,6 +33,15 @@ function App() {
       opacity: 1,
       stagger: 1,
       delay: -2
+    }).from(".stars", {
+      scale: 0,
+      duration: 2
+    }).to("#stars", {
+      opacity: 0.5,
+      yoyo: true,
+      yoyoEase: "power",
+      repeat: -1,
+      duration: 2
     }).from(".about-me-content", {
       backgroundColor: "black",
       scrollTrigger: {
