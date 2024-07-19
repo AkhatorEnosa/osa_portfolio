@@ -20,7 +20,7 @@ function App() {
     var tl = gsap.timeline();
 
     tl.to(".logo", {
-      y: 0,
+      top: 0,
       opacity: 1,
       duration: 1,
     }).to(".hero-content", {
