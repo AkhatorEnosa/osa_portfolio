@@ -23,16 +23,15 @@ function App() {
       transform: "rotate(0deg)",
       opacity: 1,
       duration: 1,
+    }).to(".hero-content", {
+      opacity: 1,
+      stagger: 1,
     }).to(".hero", {
       backgroundColor: "black",
       scrollTrigger: {
         trigger: ".about-me",
         scrub: true
       }
-    }).to(".hero-content", {
-      opacity: 1,
-      stagger: 1,
-      delay: -5
     }).to("#stars", {
       opacity: 0.5,
       yoyo: true,
