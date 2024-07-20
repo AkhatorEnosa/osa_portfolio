@@ -20,25 +20,24 @@ function App() {
     var tl = gsap.timeline();
 
     tl.to(".logo", {
-      transform: "rotate(0deg)",
+      top: 0,
       opacity: 1,
       duration: 1,
-    }).to("#stars", {
-      opacity: 0.5,
-      yoyo: true,
-      yoyoEase: "power",
-      repeat: -1,
-      duration: 2
+    }).to(".hero-content", {
+      opacity: 1,
+      stagger: 1,
     }).to(".hero", {
       backgroundColor: "black",
       scrollTrigger: {
         trigger: ".about-me",
         scrub: true
       }
-    }).to(".hero-content", {
-      opacity: 1,
-      stagger: 1,
-      delay: -2
+    }).to("#stars", {
+      opacity: 0.5,
+      yoyo: true,
+      yoyoEase: "power",
+      repeat: -1,
+      duration: 2,
     }).from(".about-me-content", {
       backgroundColor: "black",
       scrollTrigger: {
@@ -52,7 +51,6 @@ function App() {
         trigger: ".projects",
         start: "top -30%",
         scrub: true,
-        markers: true
       }
     }).to(".card", {
       scrollTrigger: {
@@ -64,8 +62,14 @@ function App() {
       opacity: 1,
       duration: 1,
     }).to(".side-bar", {
-      opacity: 1,
-      delay: -5
+          opacity: 1,
+          delay: -5,
+      scrollTrigger: {
+          trigger: ".about-me",
+            start: "top",
+            end: "top",
+          scrub: true
+      }
     })
     
 
@@ -84,6 +88,11 @@ function App() {
           // toggleActions: "none none none reverse"
         }
       })
+
+      gsap.from(".stars", {
+        scale: 0,
+        duration: 2,
+    })
 
 
   })
