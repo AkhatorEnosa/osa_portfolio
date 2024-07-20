@@ -1,6 +1,6 @@
 const Spaceman = () => {
   return (
-    <div className="stars absolute w-full h-screen justify-end items-center overflow-hidden z-30">
+    <div className="stars fixed w-full h-screen justify-end items-center overflow-hidden z-30">
 <svg  className="absolute w-[700px] md:w-full h-full scale-150" viewBox="0 0 900 616" fill="none"  xmlns="http://www.w3.org/2000/svg">
 <g id="stars-all" className="scale-150 w-full h-full">
 <g id="stars">
