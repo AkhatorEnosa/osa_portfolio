@@ -17,9 +17,13 @@
 }
 
 .hero-content {
-    text-shadow: 0px 0px 5px #00381627;
+    text-shadow: 0px 0px 5px #380000;
 }
 
 .projects {
     box-shadow: 0px -5px 10px #00381608;
+}
+
+path {
+  filter: drop-shadow(0 0px 2px white)
 }

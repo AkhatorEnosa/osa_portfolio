@@ -33,7 +33,7 @@ function App() {
         scrub: true
       }
     }).to("#stars", {
-      opacity: 0.5,
+      filter: "drop-shadow(0 0px 2px #6aff7f)",
       yoyo: true,
       yoyoEase: "power",
       repeat: -1,
@@ -64,18 +64,11 @@ function App() {
     }).to(".side-bar", {
           opacity: 1,
           delay: -5,
-      scrollTrigger: {
-          trigger: ".about-me",
-            start: "top",
-            end: "top",
-          scrub: true
-      }
     })
     
 
   const ourText = new SplitType('p.about-text')
   const words = ourText.lines
-
 
       gsap.from(words, {
         opacity:0,
@@ -90,7 +83,7 @@ function App() {
       })
 
       gsap.from(".stars", {
-        scale: 0,
+        scale: 1,
         duration: 2,
     })
 
