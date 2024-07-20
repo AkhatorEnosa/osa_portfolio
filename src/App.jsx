@@ -61,11 +61,12 @@ function App() {
       },
       opacity: 1,
       duration: 1,
-    }).to(".side-bar", {
-          opacity: 1,
-          delay: -5,
     })
     
+    gsap.to(".side-bar", {
+          opacity: 1,
+          duration: 2
+    })
 
   const ourText = new SplitType('p.about-text')
   const words = ourText.lines
@@ -83,7 +84,7 @@ function App() {
       })
 
       gsap.from(".stars", {
-        scale: 1,
+        scale: 0,
         duration: 2,
     })
 
