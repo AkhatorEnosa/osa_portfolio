@@ -88,6 +88,15 @@ function App() {
         duration: 2,
     })
 
+      gsap.to(".stars", {
+          scale: 3,
+          opacity: 0,
+          scrollTrigger: {
+            start: "top top",
+              end: "bottom bottom"
+          }
+      })
+
 
   })
 
