@@ -77,9 +77,7 @@ function App() {
       gsap.from(".stars", {
         scale: 0,
         duration: 2,
-    })
-
-      gsap.to(".stars", {
+    }).to(".stars", {
           scale: 2,
           opacity: 0,
           scrollTrigger: {
