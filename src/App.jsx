@@ -52,20 +52,6 @@ function App() {
         start: "top -30%",
         scrub: true,
       }
-    }).to(".card", {
-      scrollTrigger: {
-        trigger: ".projects",
-        scrub: 1,
-        start: "top",
-        end: "4%",
-      },
-      opacity: 1,
-      duration: 1,
-    })
-    
-    gsap.to(".side-bar", {
-          opacity: 1,
-          duration: 2
     })
 
   const ourText = new SplitType('p.about-text')
@@ -83,10 +69,25 @@ function App() {
         }
       })
 
-      gsap.from(".stars", {
-        scale: 0,
-        duration: 2,
+    gsap.to(".stars", {
+      scaleX: 1.5,
+      scaleY: 1.6,
+      duration: 2,
+        scrollTrigger: {
+          start: "top top",
+          scrub: 1
+        }
     })
+
+    // gsap.to(".hero-content", {
+    //   scaleX: 1.5,
+    //   scaleY: 1.6,
+    //   duration: 1,
+    //     scrollTrigger: {
+    //       start: "top top",
+    //       scrub: 1
+    //     }
+    // })
 
 
   })
