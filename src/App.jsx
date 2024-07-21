@@ -74,8 +74,8 @@ function App() {
         }
       })
 
-      gsap.to(".stars", {
-        scale: 2,
+      gsap.from(".stars", {
+        scale: 0,
         duration: 2,
     })
 
