@@ -52,15 +52,6 @@ function App() {
         start: "top -30%",
         scrub: true,
       }
-    }).to(".card", {
-      scrollTrigger: {
-        trigger: ".projects",
-        scrub: 1,
-        start: "top",
-        end: "4%",
-      },
-      opacity: 1,
-      duration: 1,
     })
     
     gsap.to(".side-bar", {
@@ -89,11 +80,12 @@ function App() {
     })
 
       gsap.to(".stars", {
-          scale: 3,
+          scale: 2,
           opacity: 0,
           scrollTrigger: {
             start: "top top",
-              end: "bottom bottom"
+              end: "300%",
+              scrub: 1
           }
       })
 
