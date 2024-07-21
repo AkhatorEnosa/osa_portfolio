@@ -9,8 +9,8 @@ import Kickrs from '../assets/kickrs.png'
 const Page = () => {
 
   return (
-    <section  className='projects w-full h-screen bg-[#6aff7f]'>
-      <div className="w-full flex flex-col justify-center items-center py-10 md:py-32 lg:py-40 bg-[#6aff7f] px-0  md:px-36 z-50">
+    <section  className='projects w-full h-screen bg-[#6aff7f] z-50'>
+      <div className="w-full flex flex-col justify-center items-center py-10 md:py-32 lg:py-40 bg-[#6aff7f] px-0  md:px-36">
         <h1 className="text-5xl md:text-7xl lg:text-9xl font-extrabold text-[#003816] text-center">Projects</h1>
       </div>
       <div className="projects-content w-full bg-[#003816] text-[#6aff7f] py-10 md:py-20 overflow-scroll">
