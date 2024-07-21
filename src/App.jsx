@@ -74,18 +74,10 @@ function App() {
         }
       })
 
-      gsap.from(".stars", {
-        scale: 0,
+      gsap.to(".stars", {
+        scale: 1.5,
         duration: 2,
-    }).to(".stars", {
-          scale: 2,
-          opacity: 0,
-          scrollTrigger: {
-            start: "top top",
-              end: "300%",
-              scrub: 1
-          }
-      })
+    })
 
 
   })
