@@ -55,11 +55,12 @@ function App() {
     })
 
   const ourText = new SplitType('p.about-text')
-  const words = ourText.lines
+  const words = ourText.words
 
       gsap.from(words, {
         opacity:0,
-        duration: 1, 
+        filter: "blur(15px)",
+        duration: 0.5, 
         stagger: 0.1, 
         ease: "power3.inOut",
         scrollTrigger: {
@@ -72,7 +73,7 @@ function App() {
     gsap.to(".stars", {
       scaleX: 1.5,
       scaleY: 1.6,
-      duration: 2,
+      filter: "blur(10px)",
         scrollTrigger: {
           start: "top top",
           scrub: 1
