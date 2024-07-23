@@ -73,7 +73,7 @@ function App() {
     gsap.to(".stars", {
       scaleX: 1.5,
       scaleY: 1.6,
-      filter: "blur(10px)",
+      opacity: 0,
         scrollTrigger: {
           start: "top top",
           scrub: 1
