@@ -7,8 +7,8 @@ const About = () => {
       <div className="about-me-content w-full h-fit bg-[#003816] text-[#6aff7f] py-10 md:py-20 overflow-scroll">
           <div className=" w-full flex flex-col justify-center items-center h-full px-10 lg:px-32">
             <div className="w-full text-sm md:text-2xl font-thin text-center">
-                <p className="about-text tracking-tight lg:leading-9">Hi, I am <b>Akhator Osakhogba</b>, A graduate and <b>BS.c</b> certified in <b>Computer Science</b> who got into tech because of my fascination and passion for building products on the web with code. I have a workng knowlegde of <b>HTML5, CSS3, TailwindCSS, JavaScript, ReactJs, and Wordpress</b>. I take detail-oriented approach to building website&lsquo;s responsiveness, effectiveness and usability. <b>Hardworking and passionate</b> with strong <b>organizational skills</b> and ready to help team achieve company goals.
-                My hobbies when i am not coding includes; Listening to music(any genre), playing video games out of a few.</p>
+                <p className="about-text tracking-tight lg:leading-9">Hi, I am <b>Akhator Osakhogba</b>, A graduate and <b>BS.c</b> certified in <b>Computer Science</b> who got into tech because of my fascination and passion for building products on the web with code. I have a workng knowlegde of <b>HTML5, CSS3, TailwindCSS, JavaScript, and ReactJs</b>. I take detail-oriented approach to building website&lsquo;s responsiveness, effectiveness and usability. <b>Passionate</b> with strong <b>organizational skills</b> and ready to help team achieve company goals.
+                My hobbies when not coding includes; Listening to music(any genre), playing video games out of a few.</p>
             </div>
           </div>
       </div>
