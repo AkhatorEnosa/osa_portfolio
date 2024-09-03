@@ -7,7 +7,6 @@ import Sidebar from "./components/Sidebar";
 import About from "./components/About";
 import SplitType from "split-type";
 import Nav from "./components/Nav";
-import Spaceman from "./components/Spaceman";
 
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
@@ -31,26 +30,9 @@ function App() {
         trigger: ".about-me",
         scrub: true
       }
-    }).to("#stars", {
-      filter: "drop-shadow(0 0px 2px #6aff7f)",
-      yoyo: true,
-      yoyoEase: "power",
-      repeat: -1,
-      duration: 2,
-    }).from(".about-me-content", {
-      backgroundColor: "black",
-      scrollTrigger: {
-        start: "top -30%",
-        end: "bottom bottom",
-        scrub: true,
-      }
-    }).from(".projects-content", {
-      backgroundColor: "black",
-      scrollTrigger: {
-        trigger: ".projects",
-        start: "top -30%",
-        scrub: true,
-      }
+    }).to(".skills", {
+      opacity: 1,
+      translateY: "0px"
     })
 
   const ourText = new SplitType('p.about-text')
@@ -67,28 +49,6 @@ function App() {
           // toggleActions: "none none none reverse"
         }
       })
-
-    // gsap.to(".stars", {
-    //   scaleX: 1.5,
-    //   scaleY: 1.6,
-    //   opacity: 0,
-    //     scrollTrigger: {
-    //       start: "top top",
-    //       scrub: 1
-    //     }
-    // })
-
-    // gsap.to(".hero-content", {
-    //   scaleX: 1.5,
-    //   scaleY: 1.6,
-    //   duration: 1,
-    //     scrollTrigger: {
-    //       start: "top top",
-    //       scrub: 1
-    //     }
-    // })
-
-
   })
 
   return (
@@ -96,7 +56,6 @@ function App() {
       <Nav />
       <Sidebar />
       <Hero />
-      <Spaceman />
       <About />
       <Projects />
     </div>

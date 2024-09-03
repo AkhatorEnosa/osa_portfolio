@@ -8,8 +8,8 @@
 }
 
 .project-backdrop {
-    background-color: rgba(0, 56, 22, 0.8 );
-    backdrop-filter: blur(5px);
+    background-color: #1d1d1d;
+    /* backdrop-filter: blur(2px); */
 }
 
 .card {

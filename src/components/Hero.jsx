@@ -1,16 +1,36 @@
 // import { FaAngleDown} from "react-icons/fa6"
 
+import { FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa6"
+import { IoLogoJavascript } from "react-icons/io"
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri"
+import { SiRedux } from "react-icons/si"
+
 
 const Hero = () => {
   return (
-    <section  className="hero w-full flex flex-col justify-center h-screen items-center bg-[#003816] text-[#6aff7f] overflow-hidden">
+    <section  className="hero w-full flex flex-col justify-center h-screen items-center bg-[#1d1d1d] text-[#6aff7f] overflow-hidden">
         {/* <h1 className="hero-heading text-7xl md:text-9xl tracking-tighter font-extrabold">Hello</h1> */}
         <div className="absolute w-full flex flex-col justify-center items-center px-5 md:px-40 gap-2 text-center z-40">
-            <p className="hero-content bg-[#003816] px-3 text-xl opacity-0">I am</p>
+            <div className="w-full flex justify-start px-5">
+              <p className="hero-content bg-[#003816] px-3 text-xl opacity-0 capitalize font-thin">Hey there!</p>
+            </div>
             <h2 className='hero-content text-5xl md:text-8xl lg:text-9xl font-extrabold tracking-tighter w-full text-center text-white opacity-0'>
-                Akhator Osakhogba
+                Osakhogba Akhator
             </h2> 
-            <p className="hero-content bg-black/40 px-3 text-2xl md:text-3xl lg:text-5xl uppercase font-thin opacity-0">Frontend Web Developer</p>
+            <div className="w-full flex justify-end">
+              <p className="hero-content w-fit bg-[#003816] px-3 text-2xl md:text-3xl lg:text-4xl uppercase font-thin opacity-0 text-right">Frontend Web Developer</p>
+            </div>
+        </div>
+        <div className="relative top-72 w-full flex justify-center items-center">
+          <div className="skills w-fit flex gap-4 text-2xl text-white/15 translate-y-32 opacity-0">
+            <FaHtml5 className="hover:text-orange-500 cursor-pointer transition-all duration-200" title="HTML"/>
+            <FaCss3Alt className="hover:text-[#3864b7] cursor-pointer transition-all duration-200" title="CSS"/>
+            <IoLogoJavascript className="hover:text-yellow-400 cursor-pointer transition-all duration-200" title="JavaScript"/>
+            <RiTailwindCssFill className="hover:text-[#58b4f7] cursor-pointer transition-all duration-200" title="TailwindCSS"/>
+            <FaReact className="hover:text-[#53d1ff] cursor-pointer transition-all duration-200" title="React"/>
+            <SiRedux className="hover:text-[#8c4ae9] cursor-pointer transition-all duration-200" title="Redux"/>
+            <RiNextjsFill className="hover:text-black cursor-pointer transition-all duration-200" title="NextJs"/>
+          </div>
         </div>
     </section>
   )
