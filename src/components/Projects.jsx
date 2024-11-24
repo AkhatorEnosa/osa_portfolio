@@ -2,6 +2,7 @@ import Cards from "./Cards"
 // import Shaup from '../assets/shaup.png'
 import Unscramble from '../assets/unscramble.png'
 import Kwota from '../assets/kwota.png'
+import Soozeer from '../assets/soocial.png'
 import Lokateur from '../assets/lokateur.png'
 import Splitter from '../assets/splitter.png'
 import Genotype from '../assets/gmc.png'
@@ -23,15 +24,43 @@ const Page = () => {
           <div className="w-full flex flex-col justify-center items-center h-full px-0 md:px-10 lg:px-32">
             <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-8 p-0 md:p-5'>
 
-              <Cards heading="Kwota" imagePath={Kwota} imagePath2={Kwota} alt="Kwota" details="Random quotes generator."  stack="html . css, reactjs" demoLink="https://kwota.netlify.app/" codeLink="https://github.com/AkhatorEnosa/quotes-app"/>
-              <Cards heading="Genotype Matching App" imagePath={Genotype} imagePath2={Genotype} alt="Genotype" details="This app helps couples confirm if their genotypes are compatible for their unborn children" stack="html . css . js" demoLink="https://akhatorenosa.github.io/genotype_match_checker" codeLink="https://github.com/AkhatorEnosa/genotype-match-checker"/>
-              <Cards heading="Splitter" imagePath={Splitter} imagePath2={Splitter} alt="Splitter" details="This project is based around building a web app to easily split bills between two or more persons including tips(if needed)" stack="html . css . js" demoLink="https://splitify.netlify.app/" codeLink="https://github.com/AkhatorEnosa/bill-splitter-app"/>
-              <Cards heading="Unscramble Game" imagePath={Unscramble} imagePath2={Unscramble} alt="Unscramble" details="A word unscrambling game" stack="html . css . js . reactjs . api" demoLink="https://akhatorenosa.github.io/unscramble-game/" codeLink="hub.com/AkhatorEnosa/unscramble-game"/>
-              <Cards heading="Kickrs" imagePath={Kickrs} imagePath2={Kickrs} alt="kickrs" details="Product page for eCommerce website" stack="html . css . js . tailwindcss . reactjs" demoLink="https://kickrs.netlify.app/" codeLink="https://github.com/AkhatorEnosa/product-page"/>
-              <Cards heading="Lokateur" imagePath={Lokateur} imagePath2={Lokateur} alt="Lokateur" details="Geolocation grabber with IP address website" stack="html . css . js . tailwindcss . reactjs . api" demoLink="https://Lokateur.netlify.app/" codeLink="https://github.com/AkhatorEnosa/Lokateur"/>
+              <Cards heading="Soozeer" imagePath={Soozeer} imagePath2={Soozeer} alt="Soozeer" details="A social media platform that plans to promote relationship"  stack="reactjs . redux toolkit . supabase" demoLink="https://soocial.netlify.app/" 
+              // codeLink="https://github.com/AkhatorEnosa/quotes-app"
+              />
+
+              <Cards heading="Foodie Land" imagePath={Foodie} imagePath2={Foodie2} alt="foodie land" details="A food recipe website" stack="html . css . js . tailwindcss . nextJs ." demoLink="https://foodeeland.netlify.app/" 
+              // codeLink="https://github.com/AkhatorEnosa/foodie_land"
+              />
+
+              <Cards heading="Techkare" imagePath={Techkare} imagePath2={Techkare} alt="techKare" details="Healthcare Facility Dashboard displaying a Patient's Data" stack="html . css . js . tailwindcss . reactjs . api" demoLink="https://techkare.netlify.app/" 
+              // codeLink="https://github.com/AkhatorEnosa/techcare"
+              />
+
+              <Cards heading="Lokateur" imagePath={Lokateur} imagePath2={Lokateur} alt="Lokateur" details="Geolocation grabber with IP address website" stack="html . css . js . tailwindcss . reactjs . api" demoLink="https://Lokateur.netlify.app/" 
+              // codeLink="https://github.com/AkhatorEnosa/Lokateur"
+              />
+
+              <Cards heading="Splitter" imagePath={Splitter} imagePath2={Splitter} alt="Splitter" details="This project is based around building a web app to easily split bills between two or more persons including tips(if needed)" stack="html . css . js" demoLink="https://splitify.netlify.app/" 
+              // codeLink="https://github.com/AkhatorEnosa/bill-splitter-app"
+              />
+
+              <Cards heading="Unscramble Game" imagePath={Unscramble} imagePath2={Unscramble} alt="Unscramble" details="A word unscrambling game" stack="html . css . js . reactjs . api" demoLink="https://akhatorenosa.github.io/unscramble-game/" 
+              // codeLink="hub.com/AkhatorEnosa/unscramble-game"
+              />
+
+              <Cards heading="Kickrs" imagePath={Kickrs} imagePath2={Kickrs} alt="kickrs" details="Product page for eCommerce website" stack="html . css . js . tailwindcss . reactjs" demoLink="https://kickrs.netlify.app/" 
+              // codeLink="https://github.com/AkhatorEnosa/product-page"
+              />
+
               {/* <Cards heading="Shaup" imagePath={Shaup} alt="Shaup" details="ECommerce Frontend website built with react." stack="html . css . js . tailwindcss . reactjs, api" demoLink="https://shaup.netlify.app" codeLink="https://github.com/AkhatorEnosa/online-store"/> */}
-              <Cards heading="Foodie Land" imagePath={Foodie} imagePath2={Foodie2} alt="foodie land" details="A food recipe website" stack="html . css . js . tailwindcss . nextJs ." demoLink="https://foodeeland.netlify.app/" codeLink="https://github.com/AkhatorEnosa/foodie_land"/>
-              <Cards heading="Techkare" imagePath={Techkare} imagePath2={Techkare} alt="techKare" details="Healthcare Facility Dashboard displaying a Patient's Data" stack="html . css . js . tailwindcss . reactjs . api" demoLink="https://techkare.netlify.app/" codeLink="https://github.com/AkhatorEnosa/techcare"/>
+
+              <Cards heading="Genotype Matching App" imagePath={Genotype} imagePath2={Genotype} alt="Genotype" details="This app helps couples confirm if their genotypes are compatible for their unborn children" stack="html . css . js" demoLink="https://akhatorenosa.github.io/genotype_match_checker" 
+              // codeLink="https://github.com/AkhatorEnosa/genotype-match-checker"
+              />
+
+              <Cards heading="Kwota" imagePath={Kwota} imagePath2={Kwota} alt="Kwota" details="Random quotes generator."  stack="html . css, reactjs" demoLink="https://kwota.netlify.app/" 
+              // codeLink="https://github.com/AkhatorEnosa/quotes-app"
+              />
             </div>
           </div>
       </div>

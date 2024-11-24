@@ -22,14 +22,35 @@ const Hero = () => {
             </div>
         </div>
         <div className="relative top-72 w-full flex justify-center items-center">
-          <div className="skills w-fit flex gap-4 text-2xl text-white/15 translate-y-32 opacity-0">
-            <FaHtml5 className="hover:text-orange-500 cursor-pointer transition-all duration-200" title="HTML"/>
-            <FaCss3Alt className="hover:text-[#3864b7] cursor-pointer transition-all duration-200" title="CSS"/>
-            <IoLogoJavascript className="hover:text-yellow-400 cursor-pointer transition-all duration-200" title="JavaScript"/>
-            <RiTailwindCssFill className="hover:text-[#58b4f7] cursor-pointer transition-all duration-200" title="TailwindCSS"/>
-            <FaReact className="hover:text-[#53d1ff] cursor-pointer transition-all duration-200" title="React"/>
-            <SiRedux className="hover:text-[#8c4ae9] cursor-pointer transition-all duration-200" title="Redux"/>
-            <RiNextjsFill className="hover:text-black cursor-pointer transition-all duration-200" title="NextJs"/>
+          <div className="skills w-fit flex gap-5 text-2xl text-white/15 translate-y-32 opacity-0">
+            <div className="group relative flex flex-col justify-center items-center hover:text-orange-500 cursor-pointer transition-all duration-200">
+              <FaHtml5/>
+              <p className="text-[10px] hidden group-hover:flex absolute top-5">HTML5</p>
+            </div>
+            <div className="group relative flex flex-col justify-center items-center hover:text-[#3864b7] cursor-pointer transition-all duration-200">
+              <FaCss3Alt/>
+              <p className="text-[10px] hidden group-hover:flex absolute top-5">CSS3</p>
+            </div>
+            <div className="group relative flex flex-col justify-center items-center hover:text-yellow-400 cursor-pointer transition-all duration-200">
+              <IoLogoJavascript/>
+              <p className="text-[10px] hidden group-hover:flex absolute top-5">Javascript</p>
+            </div>
+            <div className="group relative flex flex-col justify-center items-center hover:text-[#58b4f7] cursor-pointer transition-all duration-200">
+              <RiTailwindCssFill/>
+              <p className="text-[10px] hidden group-hover:flex absolute top-5">TailwindCSS</p>
+            </div>
+            <div className="group relative flex flex-col justify-center items-center hover:text-[#53d1ff] cursor-pointer transition-all duration-200">
+              <FaReact/>
+              <p className="text-[10px] hidden group-hover:flex absolute top-5">ReactJs</p>
+            </div>
+            <div className="group relative flex flex-col justify-center items-center hover:text-[#8c4ae9] cursor-pointer transition-all duration-200">
+              <SiRedux/>
+              <p className="text-[10px] hidden group-hover:flex absolute top-5">Redux</p>
+            </div>
+            <div className="group relative flex flex-col justify-center items-center hover:text-white cursor-pointer transition-all duration-200">
+              <RiNextjsFill/>
+              <p className="text-[10px] hidden group-hover:flex absolute top-5">NextJs</p>
+            </div>
           </div>
         </div>
     </section>

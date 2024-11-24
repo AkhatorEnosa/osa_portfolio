@@ -28,7 +28,7 @@ const Cards = (props) => {
 
           <div className='w-full flex gap-4 justify-center align-center mt-5'>
           <Button title={"Demo"} link={props.demoLink}/>
-          <Button title={"Code"} link={props.codeLink}/>
+          {/* <Button title={"Code"} link={props.codeLink}/> */}
           </div>
 
       </div>
