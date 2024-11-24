@@ -18,7 +18,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li className='side-link md:w-[150px] h-[60px] flex items-center px-5 md:px-5 md:-translate-x-20 hover:-translate-x-0 duration-300 bg-blue-900 z-50'>
-            <a href="https://www.linkedin.com/in/akhator-osakhogba-024762139" className='w-full flex justify-between items-center'><span className="hidden md:flex">LinkedIn</span><FaLinkedin className="text-2xl md:text-3xl"/>
+            <a href="https://www.linkedin.com/in/osakhogba-akhator-024762139/" className='w-full flex justify-between items-center'><span className="hidden md:flex">LinkedIn</span><FaLinkedin className="text-2xl md:text-3xl"/>
             </a>
           </li>
           <li className='side-link md:w-[150px] h-[60px] flex items-center px-5 md:px-5 md:-translate-x-20 hover:-translate-x-0 duration-300 bg-black z-50'>
