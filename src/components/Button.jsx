@@ -2,8 +2,8 @@
 const Button = (props) => {
   return (
     <a href={props.link} target="_blank" className="button cursor-pointer">
-       <button className="px-7 py-2 text-white font-medium bg-[#003816] hover:bg-[#6aff7f] hover:text-[#003816] transition-all duration-200">
-          <label className="bold-16 whitespace-nowrap">{props.title}</label>
+       <button className="flex justify-center items-center px-7 py-2 text-white text-sm bg-[#003816] hover:bg-[#6aff7f] hover:text-[#003816] hover:shadow-md rounded-full transition-all duration-200">
+          {props.title}
       </button>
     </a>
   )

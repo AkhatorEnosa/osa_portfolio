@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="relative top-72 w-full flex justify-center items-center">
-          <div className="skills w-fit flex gap-5 text-2xl text-white/15 translate-y-32 opacity-0">
+          <div className="skills w-[50%] flex justify-evenly gap-5 text-2xl text-white/15 translate-y-32 opacity-0">
             <div className="group relative flex flex-col justify-center items-center hover:text-orange-500 cursor-pointer transition-all duration-200">
               <FaHtml5/>
               <p className="text-[10px] hidden group-hover:flex absolute top-5">HTML5</p>
