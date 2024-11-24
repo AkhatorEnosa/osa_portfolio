@@ -23,7 +23,7 @@ const Page = () => {
           <div className="w-full flex flex-col justify-center items-center h-full px-0 md:px-10 lg:px-32">
             <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-8 p-0 md:p-5'>
 
-              <Cards heading="Kwota" imagePath={Kwota} imagePath2={Kwota} alt="Kwota" details="Random quotes generator."  stack="html . css, reactjs" demoLink="https://kowta.netlify.app/" codeLink="https://github.com/AkhatorEnosa/quotes-app"/>
+              <Cards heading="Kwota" imagePath={Kwota} imagePath2={Kwota} alt="Kwota" details="Random quotes generator."  stack="html . css, reactjs" demoLink="https://kwota.netlify.app/" codeLink="https://github.com/AkhatorEnosa/quotes-app"/>
               <Cards heading="Genotype Matching App" imagePath={Genotype} imagePath2={Genotype} alt="Genotype" details="This app helps couples confirm if their genotypes are compatible for their unborn children" stack="html . css . js" demoLink="https://akhatorenosa.github.io/genotype_match_checker" codeLink="https://github.com/AkhatorEnosa/genotype-match-checker"/>
               <Cards heading="Splitter" imagePath={Splitter} imagePath2={Splitter} alt="Splitter" details="This project is based around building a web app to easily split bills between two or more persons including tips(if needed)" stack="html . css . js" demoLink="https://splitify.netlify.app/" codeLink="https://github.com/AkhatorEnosa/bill-splitter-app"/>
               <Cards heading="Unscramble Game" imagePath={Unscramble} imagePath2={Unscramble} alt="Unscramble" details="A word unscrambling game" stack="html . css . js . reactjs . api" demoLink="https://akhatorenosa.github.io/unscramble-game/" codeLink="hub.com/AkhatorEnosa/unscramble-game"/>
