@@ -24,7 +24,7 @@ const Page = () => {
           <div className="w-full flex flex-col justify-center items-center h-full px-0 md:px-10 lg:px-32">
             <div className='w-full md:columns-2 lg:columns-3 gap-4 space-y-4 px-20 md:p-5'>
 
-              <Cards heading="Soozeer" imagePath={Soozeer} imagePath2={Soozeer} alt="Soozeer" details="A social media platform that plans to promote relationship"  stack="reactjs . redux toolkit . supabase" demoLink="https://soocial.netlify.app/" 
+              <Cards heading="Soozeer" imagePath={Soozeer} imagePath2={Soozeer} alt="Soozeer" details="A social media platform that plans to promote relationship"  stack="reactjs . redux toolkit . supabase" demoLink="https://soozeer.netlify.app/" building={true}
               // codeLink="https://github.com/AkhatorEnosa/quotes-app"
               />
 
