@@ -2,7 +2,7 @@
 
 import { FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa6"
 import { IoLogoJavascript } from "react-icons/io"
-import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri"
+import { RiTailwindCssFill } from "react-icons/ri"
 import { SiRedux, SiSupabase } from "react-icons/si"
 
 
