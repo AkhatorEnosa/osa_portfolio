@@ -3,7 +3,7 @@
 import { FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa6"
 import { IoLogoJavascript } from "react-icons/io"
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri"
-import { SiRedux } from "react-icons/si"
+import { SiRedux, SiSupabase } from "react-icons/si"
 
 
 const Hero = () => {
@@ -45,11 +45,12 @@ const Hero = () => {
             </div>
             <div className="group relative flex flex-col justify-center items-center hover:text-[#8c4ae9] cursor-pointer transition-all duration-200">
               <SiRedux/>
-              <p className="text-[10px] hidden group-hover:flex absolute top-5">Redux</p>
+              <p className="text-[10px] hidden group-hover:flex absolute top-5">RTKit</p>
             </div>
-            <div className="group relative flex flex-col justify-center items-center hover:text-white cursor-pointer transition-all duration-200">
-              <RiNextjsFill/>
-              <p className="text-[10px] hidden group-hover:flex absolute top-5">NextJs</p>
+            <div className="group relative flex flex-col justify-center items-center hover:text-green-400 cursor-pointer transition-all duration-200">
+              {/* <RiNextjsFill/> */}
+              <SiSupabase />
+              <p className="text-[10px] hidden group-hover:flex absolute top-5">Supabase</p>
             </div>
           </div>
         </div>

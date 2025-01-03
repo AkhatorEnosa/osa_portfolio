@@ -6,9 +6,16 @@ const About = () => {
       </div>
       <div className="about-me-content w-full h-fit bg-[#1d1d1d] text-white py-10 md:py-20 overflow-scroll">
           <div className=" w-full flex flex-col justify-center items-center h-full px-10 lg:px-32">
-            <div className="w-full text-sm md:text-2xl font-thin text-center">
-                <p className="about-text tracking-tight lg:leading-9">Hi, I am <b>Akhator Osakhogba</b>, A graduate and <b>BS.c</b> certified in <b>Computer Science</b> who got into tech because of my fascination and passion for building products on the web with code. I have a workng knowlegde of <b>HTML5, CSS3, TailwindCSS, JavaScript, and ReactJs</b>. I take detail-oriented approach to building website&lsquo;s responsiveness, effectiveness and usability. <b>Passionate</b> with strong <b>organizational skills</b> and ready to help team achieve company goals.
-                My hobbies when not coding includes; Listening to music(any genre), playing video games out of a few.</p>
+            <div className="w-full text-sm md:text-xl font-thin text-center">
+                <p className="about-text tracking-wide lg:leading-9">I am <b>Akhator Osakhogba</b>, a <b>Bachelor of Science graduate in Computer Science</b>, dedicated to advancing web development through innovation. My proficiency spans <b>HTML5, CSS3, TailwindCSS, JavaScript, and ReactJS</b>, enabling the creation of visually compelling and highly functional digital solutions.
+
+                My methodology is <b>detail-centric</b>, focusing on enhancing the <b>responsiveness, effectiveness, and usability</b> of websites to offer superior user experiences.
+
+                Elevating beyond basic functionality, my focus is on crafting <b>immersive digital experiences</b> that not only engage but also captivate audiences.
+
+                In my personal time, I indulge in exploring various music genres and strategic video gaming, activities that hone my creative and problem-solving skills.
+
+                Connect with me to harness my commitment to <b>innovation and excellence</b> for your project&lsquo;s success.</p>
             </div>
           </div>
       </div>
