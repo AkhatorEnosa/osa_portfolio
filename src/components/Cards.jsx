@@ -13,25 +13,25 @@ const Cards = (props) => {
           <h2 className='text-2xl font-thin text-center tracking-wider px-4'>{props.heading}</h2>
 
           <div className='relative w-full overflow-hidden'>
-            <img src={props.imagePath2} alt={props.alt} className='group-hover:hidden h-auto w-full object-cover group-hover:scale-105 transition-all duration-500 '/>
-            <img src={props.imagePath} alt={props.alt} className='hidden group-hover:flex h-auto w-full object-cover group-hover:scale-105 transition-all duration-500'/>
+            <img src={props.imagePath2} alt={props.alt} className='group-hover:hidden h-auto w-full object-cover transition-all duration-500 '/>
+            <img src={props.imagePath} alt={props.alt} className='hidden group-hover:flex h-auto w-full object-cover transition-all duration-500'/>
           </div>
 
             <TechStack 
               stack={props.stack}
               />
 
-          <details className='text-center lg:hidden px-4 font-thin'>
+          <div className='text-center lg:hidden px-4 text-sm'>
               {props.details}
             <div className='w-full flex gap-4 justify-center align-center mt-4'>
               <Button title={"Demo"} link={props.demoLink}/>
               {/* <Button title={"Code"} link={props.codeLink}/> */}
             </div>
-          </details>
+          </div>
 
 
           {/* hover backdrop  */}
-          <div className="hidden project-backdrop absolute inset-0 bg-[#0a192f] lg:group-hover:block group-hover:border-2 border-[#6aff7f] rounded-lg transition-all duration-500">
+          <div className="hidden lg:flex lg:opacity-0 project-backdrop absolute inset-0 bg-[#0a192f] group-hover:opacity-90 lg:group-hover:block group-hover:border-2 border-[#6aff7f] rounded-lg transition-all duration-500">
             <div className="w-full h-full font-extralight flex flex-col justify-center text-center items-center gap-4 px-5 text-sm">
                 <h2 className="text-white">{props.details}</h2>
                 <Button title={"Demo"} link={props.demoLink}/>

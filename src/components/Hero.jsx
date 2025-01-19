@@ -12,13 +12,13 @@ const Hero = () => {
         {/* <h1 className="hero-heading text-7xl md:text-9xl tracking-tighter font-extrabold">Hello</h1> */}
         <div className="absolute w-full flex flex-col justify-center items-center px-5 md:px-40 gap-2 text-center z-40">
             <div className="w-full flex justify-start px-5">
-              <p className="hero-content bg-[#003816] px-3 text-xl opacity-0 capitalize font-thin">Hey there!</p>
+              <p className="hero-content bg-[#003816] px-3 text-xl opacity-0 capitalize font-thin rounded-md shadow-[#6aff7e1b]">Hey there!</p>
             </div>
             <h2 className='hero-content text-5xl md:text-8xl lg:text-9xl font-extrabold tracking-tighter w-full text-center text-white opacity-0'>
                 Osakhogba Akhator
             </h2> 
             <div className="w-full flex justify-end">
-              <p className="hero-content w-fit bg-[#003816] px-3 text-2xl md:text-3xl lg:text-4xl uppercase font-thin opacity-0 text-right">Frontend Web Developer</p>
+              <p className="hero-content w-fit bg-[#003816] px-3 text-2xl md:text-3xl lg:text-4xl uppercase font-thin opacity-0 text-right shadow-md shadow-[#6aff7e1b]">Frontend Web Developer</p>
             </div>
         </div>
         <div className="relative top-72 w-full flex justify-center items-center">

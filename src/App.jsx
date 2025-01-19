@@ -9,7 +9,7 @@ import SplitType from "split-type";
 import Nav from "./components/Nav";
 
 gsap.registerPlugin(useGSAP);
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger)
 
 
 function App() {
@@ -49,6 +49,14 @@ function App() {
           // toggleActions: "none none none reverse"
         }
       })
+
+      gsap.from(".card", {
+      opacity: 0,
+      scrollTrigger: {
+        trigger: ".projects",
+        scrub: true,
+      }
+    })
   })
 
   return (
