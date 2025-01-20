@@ -20,15 +20,16 @@ function App() {
     tl.to(".logo", {
       top: 0,
       opacity: 1,
-      duration: 1,
+      duration: 0.5,
     }).to(".hero-content", {
       opacity: 1,
-      stagger: 1,
+      stagger: 0.5,
     }).to(".hero", {
       backgroundColor: "black",
       scrollTrigger: {
         trigger: ".about-me",
-        scrub: true
+        scrub: true,
+        start: '-40%'
       }
     }).to(".skills", {
       opacity: 1,
@@ -45,16 +46,19 @@ function App() {
         ease: "power3.inOut",
         scrollTrigger: {
           trigger: ".about-me",
-          start: "-20%", // start when the top of the <h1> reaches 70% down from the top of the viewport
+          start: "-80%",
           // toggleActions: "none none none reverse"
         }
       })
 
       gsap.from(".card", {
       opacity: 0,
+      // scale: 0,
+      // duration: 1,
       scrollTrigger: {
         trigger: ".projects",
-        scrub: true,
+        start: "-30%",
+        // scrub: true,
       }
     })
   })
