@@ -5,6 +5,8 @@ import { IoLogoJavascript } from "react-icons/io"
 import { RiTailwindCssFill } from "react-icons/ri"
 import { SiRedux, SiSupabase } from "react-icons/si"
 
+import Avatar from '../assets/avatar.png'
+
 
 const Hero = () => {
   return (
@@ -14,15 +16,15 @@ const Hero = () => {
             <div className="w-full flex justify-start px-5">
               <p className="hero-content bg-[#003816] px-3 text-xl opacity-0 capitalize font-thin rounded-md shadow-[#6aff7e1b]">Hey there!</p>
             </div>
-            <h2 className='hero-content text-5xl md:text-8xl lg:text-9xl font-extrabold tracking-tighter w-full text-center text-white opacity-0'>
+            <h2 className='hero-content text-5xl md:text-8xl lg:text-9xl font-extrabold tracking-tighter w-full text-center text-white opacity-0 drop-shadow-[0_5px_5px_rgb(0,0,0)]'>
                 Osakhogba Akhator
             </h2> 
-            <div className="w-full flex justify-end">
-              <p className="hero-content w-fit bg-[#003816] px-3 text-2xl md:text-3xl lg:text-4xl uppercase font-thin opacity-0 text-right shadow-md shadow-[#6aff7e1b]">Frontend Web Developer</p>
+            <div className="w-full flex justify-center lg:justify-end">
+              <p className="hero-content w-fit bg-[#003816] px-3 text-2xl md:text-3xl lg:text-4xl uppercase font-thin opacity-0 text-center lg:text-right shadow-md shadow-[#6aff7e1b]">Frontend Web Developer</p>
             </div>
         </div>
-        <div className="relative top-72 w-full flex justify-center items-center">
-          <div className="skills w-[50%] flex justify-evenly gap-5 text-2xl text-white/15 translate-y-32 opacity-0">
+        <div className="relative top-80 md:top-72 w-full flex justify-center items-center z-20">
+          <div className="skills bg-[#09200d]/50 lg:bg-transparent px-10 py-5 rounded-full backdrop-blur-sm lg:w-[50%] flex justify-evenly gap-5 text-2xl text-white/30 translate-y-32 opacity-0">
             <div className="group relative flex flex-col justify-center items-center hover:text-orange-500 cursor-pointer transition-all duration-200">
               <FaHtml5/>
               <p className="text-[10px] hidden group-hover:flex absolute top-5">HTML5</p>
@@ -54,6 +56,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
+
+        <img src={Avatar} alt="My avatar" className="avatar opacity-0 lg:w-[50%] absolute top-28 lg:-top-10 lg:right-10 z-0 brightness-75"/>
     </section>
   )
 }

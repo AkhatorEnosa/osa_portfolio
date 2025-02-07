@@ -3,6 +3,7 @@ import Cards from "./Cards"
 import Unscramble from '../assets/unscramble.png'
 import Kwota from '../assets/kwota.png'
 import Soozeer from '../assets/sooozeer.png'
+import Moovees from '../assets/moovees.png'
 import Lokateur from '../assets/lokateur.png'
 import Splitter from '../assets/splitter.png'
 import Genotype from '../assets/gmc.png'
@@ -14,17 +15,17 @@ import Kickrs from '../assets/kickrs.png'
 const Page = () => {
 
   return (
-    <section  className='relative projects w-full h-screen bg-[#6aff7f] z-40'>
-      <div className="w-full flex flex-col justify-center items-center py-10 md:py-32 lg:py-40 bg-[#003816] px-0  md:px-36">
-        <h1 className="text-5xl md:text-7xl lg:text-9xl font-extrabold text-[#6aff7f] text-center">Projects</h1>
+    <section  className='relative projects w-full h-auto z-40 clear-both'>
+      <div className="w-full flex flex-col justify-center items-center py-10 md:py-24 bg-[#1d1d1d] lg:pt-40 px-10 md:px-36">
+        <h1 className="text-5xl md:text-7xl lg:text-9xl font-extrabold text-[#6aff7f]/50 text-center">Projects</h1>
       </div>
       <div className="projects-content w-full bg-[#1d1d1d] text-[#6aff7f] py-10 md:py-20 overflow-scroll">
         
 
           <div className="w-full flex flex-col justify-center items-center h-full px-0 md:px-10 lg:px-32">
-            <div className='w-full md:columns-2 lg:columns-3 gap-4 space-y-4 px-10 md:p-5'>
+            <div className='w-full md:columns-2 lg:columns-3 gap-4 space-y-10 md:space-y-4 px-12 md:p-5'>
 
-              <Cards heading="Soozeer" imagePath={Soozeer} imagePath2={Soozeer} alt="Soozeer" details="A social media platform that plans to promote relationship"  stack={['reactjs', 'redux toolkit', 'supabase']} demoLink="https://soozeer.netlify.app/" building={false}
+              <Cards heading="Soozeer" imagePath={Soozeer} imagePath2={Soozeer} alt="Soozeer" details="A social media platform that plans to promote relationship"  stack={['reactjs', 'redux toolkit', 'tailwindcss', 'supabase']} demoLink="https://soozeer.netlify.app/" building={false}
               // codeLink="https://github.com/AkhatorEnosa/quotes-app"
               />
 
@@ -34,6 +35,10 @@ const Page = () => {
 
               <Cards heading="Techkare" imagePath={Techkare} imagePath2={Techkare} alt="techKare" details="Healthcare Facility Dashboard displaying a Patient's Data" stack={['reactjs', 'Api', 'tailwindcss']} demoLink="https://techkare.netlify.app/" building={false}
               // codeLink="https://github.com/AkhatorEnosa/techcare"
+              />
+
+              <Cards heading="Moovees" imagePath={Moovees} imagePath2={Moovees} alt="Moovees" details="A Movie website that consumes data from TMDB's rich movie API to render movies" stack={['reactjs', 'tailwindCss', 'appwrite']} demoLink="https://moovees.netlify.app/" building={false}
+              // codeLink="https://github.com/AkhatorEnosa/foodie_land"
               />
 
               <Cards heading="Lokateur" imagePath={Lokateur} imagePath2={Lokateur} alt="Lokateur" details="Geolocation grabber with IP address website" stack={['reactjs', 'Api', 'tailwindcss']} demoLink="https://Lokateur.netlify.app/" building={false}

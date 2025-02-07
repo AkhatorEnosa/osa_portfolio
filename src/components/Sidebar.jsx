@@ -1,13 +1,13 @@
 import { BsFillPersonLinesFill } from "react-icons/bs"
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6"
 import { HiOutlineMail } from "react-icons/hi"
-import Cv from '../assets/osakhogba akhator.pdf';
+import Cv from '../assets/osakhogba.pdf';
 import { FaAngleDoubleDown, FaGlobe } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
        
-       <div className='side-bar flex fixed w-full md:w-fit flex-col bottom-0 md:top-[25%] justify-center items-center md:justify-normal md:items-start md:left-0 z-50 font-extralight text-xs text-white bg-[#003816] bg-transparent'>
+       <div className='side-bar flex fixed w-full md:w-fit flex-col bottom-0 md:top-[20%] justify-center items-center md:justify-normal md:items-start md:left-0 z-50 font-extralight text-xs text-white bg-[#003816] bg-transparent'>
         <ul className="flex md:flex-col">
           <li className='side-link hidden md:w-[150px] h-[60px] md:flex items-center underline px-5 md:px-5 md:pl-2'>
               Contact Me <FaAngleDoubleDown />

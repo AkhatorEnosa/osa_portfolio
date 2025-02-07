@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background: #1d1d1d;
+}
+
 .page-div {
-    background-color: rgba(255,255,255, 0.3);
+    /* background-color: rgba(255,255,255, 0.3); */
     backdrop-filter: blur(0.5px);
 }
 

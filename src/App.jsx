@@ -7,6 +7,7 @@ import Sidebar from "./components/Sidebar";
 import About from "./components/About";
 import SplitType from "split-type";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger)
@@ -21,6 +22,9 @@ function App() {
       top: 0,
       opacity: 1,
       duration: 0.5,
+    }).to(".avatar", {
+      opacity: 1,
+      stagger: 0.5,
     }).to(".hero-content", {
       opacity: 1,
       stagger: 0.5,
@@ -52,24 +56,25 @@ function App() {
       })
 
       gsap.from(".card", {
-      opacity: 0,
-      // scale: 0,
-      // duration: 1,
-      scrollTrigger: {
-        trigger: ".projects",
-        start: "-30%",
-        // scrub: true,
-      }
-    })
+        opacity: 0,
+        // scale: 0,
+        // duration: 1,
+        scrollTrigger: {
+          trigger: ".projects",
+          start: "-30%",
+          // scrub: true,
+        }
+      })
   })
 
   return (
-    <div className="w-full flex flex-col">
+    <div className="w-full flex flex-col bg-black">
       <Nav />
       <Sidebar />
       <Hero />
       <About />
       <Projects />
+      <Footer />
     </div>
   )
 }
