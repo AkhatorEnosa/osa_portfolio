@@ -6,20 +6,22 @@ import TechStack from "./TechStack"
 const Cards = (props) => {
 
   return (
-      <div className='card break-inside-avoid group relative w-full flex flex-col justify-between gap-2 items-center py-5 rounded-lg bg-white text-[#003816] cursor-pointer lg:shadow-sm lg:hover:shadow-none transition-all duration-500 z-50'>
+      <div className='card break-inside-avoid group relative w-full flex flex-col justify-between gap-2 items-center pb-5 rounded-lg bg-black/20 text-white border-[1px] border-white/20 hover:border-none cursor-pointer overflow-clip lg:shadow-sm lg:hover:shadow-none transition-all duration-500 z-50'>
 
-          {props.building && <div className="absolute rounded-full flex justify-center items-center px-2 py-2 gap-2 shadow-md bg-[#fff86a] -right-2 -top-5 z-[2000] cursor-pointer"><LuConstruction /> <span className="text-xs lg:hidden group-hover:flex">Work in Progress</span></div>}
+          {props.building && <div className="absolute rounded-full flex justify-center items-center px-2 py-2 gap-2 shadow-md bg-[#fff86a] text-black border-[1px] border-black right-2 top-2 z-[2000] cursor-pointer"><LuConstruction /> <span className="text-xs lg:hidden group-hover:flex">Work in Progress</span></div>}
 
-          <h2 className='text-2xl font-thin text-center tracking-wider px-4'>{props.heading}</h2>
-
-          <div className='relative w-full overflow-hidden'>
-            <img src={props.imagePath2} alt={props.alt} className='group-hover:hidden h-auto w-full object-cover transition-all duration-500 '/>
-            <img src={props.imagePath} alt={props.alt} className='hidden group-hover:flex h-auto w-full object-cover transition-all duration-500'/>
+          <div className='relative w-full overflow-hidden rounded-lg'>
+            <img src={props.imagePath2} alt={props.alt} className='group-hover:scale-125 h-52 w-full object-cover transition-all duration-500 '/>
+            {/* <img src={props.imagePath} alt={props.alt} className='hidden group-hover:flex h-52 w-full object-cover transition-all duration-500'/> */}
           </div>
+
+          <div className="flex flex-col justify-center items-center">
+            <h2 className='text-lg my-5 uppercase font-semibold px-4'>{props.heading}</h2>
 
             <TechStack 
               stack={props.stack}
-              />
+            />
+          </div>
 
           <div className='text-center lg:hidden px-4 text-sm'>
               {props.details}

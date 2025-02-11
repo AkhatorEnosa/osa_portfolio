@@ -68,7 +68,7 @@ function App() {
   })
 
   return (
-    <div className="w-full flex flex-col bg-black">
+    <div className="w-full flex flex-col">
       <Nav />
       <Sidebar />
       <Hero />

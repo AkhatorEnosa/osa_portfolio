@@ -10,7 +10,7 @@ import Avatar from '../assets/avatar.png'
 
 const Hero = () => {
   return (
-    <section  className="hero w-full flex flex-col justify-center h-screen items-center bg-[#1d1d1d] text-[#6aff7f] overflow-hidden">
+    <section className="hero w-full flex flex-col justify-center h-screen items-center bg-[#1d1d1d] text-[#6aff7f] overflow-hidden">
         {/* <h1 className="hero-heading text-7xl md:text-9xl tracking-tighter font-extrabold">Hello</h1> */}
         <div className="absolute w-full flex flex-col justify-center items-center px-5 md:px-40 gap-2 text-center z-40">
             <div className="w-full flex justify-start px-5">
@@ -57,7 +57,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <img src={Avatar} alt="My avatar" className="avatar opacity-0 lg:w-[50%] absolute top-28 lg:-top-10 lg:right-10 z-0 brightness-75"/>
+        <img src={Avatar} alt="My avatar" id="top" className="avatar opacity-0 lg:w-[50%] absolute top-28 lg:-top-5 lg:right-10 z-0 brightness-75"/>
     </section>
   )
 }
