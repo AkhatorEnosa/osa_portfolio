@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,4 +32,10 @@ html {
 
 path {
   filter: drop-shadow(0 0px 2px white)
+}
+
+@layer utilities {
+    .words {
+        font-family: "Plus Jakarta Sans", serif;
+    }
 }

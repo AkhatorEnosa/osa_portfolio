@@ -24,7 +24,7 @@ const Page = () => {
 
           <div className="w-full flex flex-col justify-center items-center h-full px-0 md:px-10 lg:px-32">
             {/* <div className='w-full md:columns-2 lg:columns-3 gap-4 space-y-10 md:space-y-4 px-12 md:p-5'> */}
-            <div className='w-full grid md:grid-cols-2 lg:grid-cols-3 gap-4 px-12 md:p-5'>
+            <div className='w-full grid md:grid-cols-2 lg:grid-cols-3 space-y-10 md:space-y-0 gap-4 px-12 md:p-5'>
             {/* <div className='w-full flex flex-wrap gap-4 px-12 md:p-5'> */}
 
               <Card heading="Soozeer" imagePath={Soozeer} imagePath2={Soozeer} alt="Soozeer" details="A social media platform that plans to promote relationship"  stack={['reactjs', 'redux toolkit', 'tailwindcss', 'supabase']} demoLink="https://soozeer.netlify.app/" building={false}

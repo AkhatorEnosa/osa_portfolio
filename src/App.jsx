@@ -57,18 +57,20 @@ function App() {
 
       gsap.from(".card", {
         opacity: 0,
-        // scale: 0,
+        scale: 0.5,
+        rotate: "10deg",
         // duration: 1,
         scrollTrigger: {
           trigger: ".projects",
-          start: "-30%",
+          start: "-10%",
+          end: "bottom bottom",
           // scrub: true,
         }
       })
   })
 
   return (
-    <div className="w-full flex flex-col">
+    <div className="w-full flex flex-col words">
       <Nav />
       <Sidebar />
       <Hero />

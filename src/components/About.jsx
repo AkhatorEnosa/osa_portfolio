@@ -7,15 +7,18 @@ const About = () => {
       <div className="about-me-content w-full h-fit bg-[#1d1d1d] text-white py-10 md:py-20 overflow-scroll z-0">
           <div className=" w-full flex flex-col justify-center items-center h-full px-10 lg:px-32">
             <div className="w-full text-sm md:text-xl font-thin text-center">
-                <p className="about-text tracking-wide lg:leading-9">I am <b>Akhator Osakhogba</b>, a <b>Bachelor of Science graduate in Computer Science</b>, dedicated to advancing web development through innovation. My proficiency spans <b>HTML5, CSS3, TailwindCSS, JavaScript, and ReactJS</b>, enabling the creation of visually compelling and highly functional digital solutions.
+                <p id="about" className="about-text tracking-wide lg:leading-9">
 
-                My methodology is <b>detail-centric</b>, focusing on enhancing the <b>responsiveness, effectiveness, and usability</b> of websites to offer superior user experiences.
-
-                Elevating beyond basic functionality, my focus is on crafting <b>immersive digital experiences</b> that not only engage but also captivate audiences.
-
-                In my personal time, I indulge in exploring various music genres and strategic video gaming, activities that hone my creative and problem-solving skills.
-
-                Connect with me to harness my commitment to <b>innovation and excellence</b> for your project&lsquo;s success.</p>
+                  I&lsquo;m a <b>Frontend Developer</b> equipped with a <b>B.Sc in Computer Science</b>, with experience in both <b>frontend and backend
+                  development</b>, aimed at constructing applications that are both <b>functional and scalable</b>. I&lsquo;ve familiarized myself with
+                  modern frameworks like <b>ReactJS</b> for building responsive user interfaces, <b>TailwindCSS</b> for efficient styling, and <b>Redux
+                  Toolkit</b> for state management. On the backend, I&lsquo;ve engaged with <b>Supabase</b>, particularly its <b>PostgreSQL database</b>, to
+                  manage data effectively. My approach is to contribute to projects by ensuring they meet user needs while maintaining
+                  performance standards. I have a passion for creating user experiences that feel intuitive and solving real-world problems
+                  through technology. I&lsquo;m dedicated to continuous learning, recognizing that staying updated in software engineering is
+                  key to delivering quality work. 
+                
+                </p>
             </div>
           </div>
       </div>

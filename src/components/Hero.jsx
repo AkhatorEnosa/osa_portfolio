@@ -12,19 +12,19 @@ const Hero = () => {
   return (
     <section className="hero w-full flex flex-col justify-center h-screen items-center bg-[#1d1d1d] text-[#6aff7f] overflow-hidden">
         {/* <h1 className="hero-heading text-7xl md:text-9xl tracking-tighter font-extrabold">Hello</h1> */}
-        <div className="absolute w-full flex flex-col justify-center items-center px-5 md:px-40 gap-2 text-center z-40">
-            <div className="w-full flex justify-start px-5">
-              <p className="hero-content bg-[#003816] px-3 text-xl opacity-0 capitalize font-thin rounded-md shadow-[#6aff7e1b]">Hey there!</p>
+        <div className="absolute w-96vw flex flex-col justify-center items-center px-5 md:px-40 gap-2 text-center z-40">
+            <div className="w-full flex justify-center lg:justify-start px-5">
+              <p className="hero-content px-3 text-xl opacity-0 capitalize font-medium">Hey there!</p>
             </div>
-            <h2 className='hero-content text-5xl md:text-8xl lg:text-9xl font-extrabold tracking-tighter w-full text-center text-white opacity-0 drop-shadow-[0_5px_5px_rgb(0,0,0)]'>
+            <h2 className='hero-content text-7xl md:text-8xl font-extrabold tracking-tighter w-full text-center text-white opacity-0 drop-shadow-[0_5px_5px_rgb(0,0,0)]'>
                 Osakhogba Akhator
             </h2> 
             <div className="w-full flex justify-center lg:justify-end">
-              <p className="hero-content w-fit bg-[#003816] px-3 text-2xl md:text-3xl lg:text-4xl uppercase font-thin opacity-0 text-center lg:text-right shadow-md shadow-[#6aff7e1b]">Frontend Web Developer</p>
+              <p className="hero-content w-fit px-3 text-2xl md:text-3xl lg:text-4xl uppercase font-medium opacity-0 text-center lg:text-right ">Frontend Web Developer</p>
             </div>
         </div>
         <div className="relative top-80 md:top-72 w-full flex justify-center items-center z-20">
-          <div className="skills bg-[#09200d]/50 lg:bg-transparent px-10 py-5 rounded-full backdrop-blur-sm lg:w-[50%] flex justify-evenly gap-5 text-2xl text-white/30 translate-y-32 opacity-0">
+          <div className="skills bg-[#09200d]/50 px-10 py-5 rounded-full backdrop-blur-sm lg:w-[50%] flex justify-evenly gap-5 text-2xl text-white/30 translate-y-32 opacity-0">
             <div className="group relative flex flex-col justify-center items-center hover:text-orange-500 cursor-pointer transition-all duration-200">
               <FaHtml5/>
               <p className="text-[10px] hidden group-hover:flex absolute top-5">HTML5</p>
@@ -57,7 +57,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <img src={Avatar} alt="My avatar" id="top" className="avatar opacity-0 lg:w-[50%] absolute top-28 lg:-top-5 lg:right-10 z-0 brightness-75"/>
+        <img src={Avatar} alt="My avatar" id="top" className="avatar opacity-0 lg:w-[50%] absolute top-28 lg:-top-5 lg:right-10 z-0 brightness-75 hover:brightness-90 hover:z-40 hover:scale-105 duration-500 transition-all ease-in-out"/>
     </section>
   )
 }
