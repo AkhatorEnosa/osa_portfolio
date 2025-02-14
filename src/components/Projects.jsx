@@ -27,41 +27,114 @@ const Page = () => {
             <div className='w-full grid md:grid-cols-2 lg:grid-cols-3 space-y-10 md:space-y-0 gap-4 px-12 md:p-5'>
             {/* <div className='w-full flex flex-wrap gap-4 px-12 md:p-5'> */}
 
-              <Card heading="Soozeer" imagePath={Soozeer} imagePath2={Soozeer} alt="Soozeer" details="A social media platform that plans to promote relationship"  stack={['reactjs', 'redux toolkit', 'tailwindcss', 'supabase']} demoLink="https://soozeer.netlify.app/" building={false}
+              <Card 
+                heading="Soozeer" 
+                imagePath={Soozeer} 
+                imagePath2={Soozeer} 
+                alt="Soozeer" 
+                details="A dynamic and interactive social media platform built with React, Redux Toolkit, React Query, and Supabase. Featuring seamless state management, real-time updates, and secure user authentication, this platform delivers a modern and scalable social experience. Connect, share, and engage like never before! 🚀"  
+                stack={['reactjs', 'redux toolkit', 'tailwindcss', 'supabase']} 
+                demoLink="https://soozeer.netlify.app/" 
+                building={false}
               // codeLink="https://github.com/AkhatorEnosa/quotes-app"
               />
 
-              <Card heading="Foodie Land" imagePath={Foodie} imagePath2={Foodie2} alt="foodie land" details="A food recipe website" stack={['reactjs', 'nextJs', 'tailwindCss']} demoLink="https://foodeeland.netlify.app/" building={false}
+              <Card 
+                heading="Foodie Land" 
+                imagePath={Foodie} 
+                imagePath2={Foodie2} 
+                alt="foodie land" 
+                details="Explore a user-friendly platform for discovering delicious recipes, built with Next.js. Featuring responsive design, this website delivers fast load times and seamless navigation. Perfect for food enthusiasts, it combines modern technology with culinary inspiration" 
+                stack={['nextJs', 'tailwindCss']} 
+                demoLink="https://foodeeland.netlify.app/" 
+                building={false}
               // codeLink="https://github.com/AkhatorEnosa/foodie_land"
               />
 
-              <Card heading="Moovees" imagePath={Moovees} imagePath2={Moovees} alt="Moovees" details="A Movie website that consumes data from TMDB's rich movie API to render movies" stack={['reactjs', 'tailwindCss', 'appwrite']} demoLink="https://moovees.netlify.app/" building={false}
+              <Card 
+                heading="Moovees" 
+                imagePath={Moovees} 
+                imagePath2={Moovees} 
+                alt="Moovees" 
+                details="A platform built with ReactJS that integrates TMDB's API to display movie details, trailers, ratings, and recommendations. Designed for ease of use, it offers a clean and efficient way to explore films." 
+                stack={['reactjs', 'tailwindCss', 'appwrite']} 
+                demoLink="https://moovees.netlify.app/" 
+                building={false}
               // codeLink="https://github.com/AkhatorEnosa/foodie_land"
               />
 
-              <Card heading="Techkare" imagePath={Techkare} imagePath2={Techkare} alt="techKare" details="Healthcare Facility Dashboard displaying a Patient's Data" stack={['reactjs', 'Api', 'tailwindcss']} demoLink="https://techkare.netlify.app/" building={false}
+              <Card 
+                heading="Techkare" 
+                imagePath={Techkare} 
+                imagePath2={Techkare} 
+                alt="techKare" 
+                details="A centralized platform for managing and displaying patient data, designed to streamline workflows and improve care delivery. Built with ReactJS and integrated with a robust API, it ensures seamless functionality." 
+                stack={['reactjs', 'Api', 'tailwindcss']} 
+                demoLink="https://techkare.netlify.app/" 
+                building={false}
               // codeLink="https://github.com/AkhatorEnosa/techcare"
               />
 
-              <Card heading="Lokateur" imagePath={Lokateur} imagePath2={Lokateur} alt="Lokateur" details="Geolocation grabber with IP address website" stack={['reactjs', 'Api', 'tailwindcss']} demoLink="https://Lokateur.netlify.app/" building={false}
+              <Card 
+                heading="Lokateur" 
+                imagePath={Lokateur} 
+                imagePath2={Lokateur} 
+                alt="Lokateur" 
+                details="This website is a geolocation tool that converts IP addresses into detailed location data, including city, country, time zone, and currency. Built with precision and user-friendliness in mind, it provides accurate and instant results for developers, businesses, and curious users alike." 
+                stack={['reactjs', 'Api', 'tailwindcss']} 
+                demoLink="https://Lokateur.netlify.app/" 
+                building={false}
               // codeLink="https://github.com/AkhatorEnosa/Lokateur"
               />
 
-              <Card heading="Splitter" imagePath={Splitter} imagePath2={Splitter} alt="Splitter" details="This project is based around building a web app to easily split bills between two or more persons including tips(if needed)" stack={['html', 'css', 'javascript']} demoLink="https://splitify.netlify.app/" building={false}
+              <Card 
+                heading="Splitter" 
+                imagePath={Splitter} 
+                imagePath2={Splitter} 
+                alt="Splitter" 
+                details="A user-friendly web application designed to simplify splitting bills between two or more people, including optional tip calculations. Built with HTML, CSS, and JavaScript, it offers a clean and intuitive interface for quick and accurate bill division." 
+                stack={['html', 'css', 'javascript']} 
+                demoLink="https://splitify.netlify.app/" 
+                building={false}
               // codeLink="https://github.com/AkhatorEnosa/bill-splitter-app"
               />
 
-              <Card heading="Unscramble Game" imagePath={Unscramble} imagePath2={Unscramble} alt="Unscramble" details="A word unscrambling game" stack={['reactjs', 'Api', 'Css']} demoLink="https://akhatorenosa.github.io/unscramble-game/" building={false}
+              <Card 
+                heading="Unscramble Game" 
+                imagePath={Unscramble} 
+                imagePath2={Unscramble} 
+                alt="Unscramble" 
+                details="A fun and engaging game where players unscramble letters to form valid words. Built to challenge vocabulary skills and improve cognitive agility, it’s perfect for word enthusiasts of all ages." 
+                stack={['reactjs', 'Api', 'Css']} 
+                demoLink="https://akhatorenosa.github.io/unscramble-game/" 
+                building={false}
               // codeLink="hub.com/AkhatorEnosa/unscramble-game"
               />
 
-              <Card heading="Kickrs" imagePath={Kickrs} imagePath2={Kickrs} alt="kickrs" details="Product page for eCommerce website" stack={['reactjs', 'tailwindcss']} demoLink="https://kickrs.netlify.app/" building={false}
+              <Card 
+                heading="Kickrs" 
+                imagePath={Kickrs} 
+                imagePath2={Kickrs} 
+                alt="kickrs" 
+                details="A sleek and responsive product page designed to showcase items with detailed descriptions, and high-quality images. Built to enhance the shopping experience, it ensures seamless navigation and quick purchasing decisions." 
+                stack={['reactjs', 'tailwindcss']} 
+                demoLink="https://kickrs.netlify.app/" 
+                building={false}
               // codeLink="https://github.com/AkhatorEnosa/product-page"
               />
 
               {/* <Card heading="Shaup" imagePath={Shaup} alt="Shaup" details="ECommerce Frontend website built with react." stack="html . css . js . tailwindcss . reactjs, api" demoLink="https://shaup.netlify.app" codeLink="https://github.com/AkhatorEnosa/online-store"/> */}
 
-              <Card heading="Genotype Matching App" imagePath={Genotype} imagePath2={Genotype} alt="Genotype" details="This app helps couples confirm if their genotypes are compatible for their unborn children" stack={['html', 'css', 'javascript']} demoLink="https://akhatorenosa.github.io/genotype_match_checker" building={false}
+              <Card 
+                heading="Genotype Matching App" 
+                imagePath={Genotype} 
+                imagePath2={Genotype} 
+                alt="Genotype" 
+                details="The idea that birthed this project is to assist couples in determining if their genotypes are compatible for their future children. Designed with simplicity and accuracy in mind, it provides quick insights to support informed family planning decisions.
+                " 
+                stack={['html', 'css', 'javascript']} 
+                demoLink="https://akhatorenosa.github.io/genotype_match_checker" 
+                building={false}
               // codeLink="https://github.com/AkhatorEnosa/genotype-match-checker"
               />
 

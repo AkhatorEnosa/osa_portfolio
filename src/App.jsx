@@ -67,6 +67,24 @@ function App() {
           // scrub: true,
         }
       })
+
+      gsap.to(".nav", {
+        position: "fixed",
+        scrollTrigger: {
+          trigger: ".hero",
+          start: "50%",
+          scrub: true,
+        }
+      })
+
+      gsap.from(".footer", {
+        opacity: 0,
+        bottom: "-20px",
+        scrollTrigger: {
+          trigger: ".projects",
+          start: "60%"
+        }
+      })
   })
 
   return (

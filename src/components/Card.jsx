@@ -6,7 +6,7 @@ import TechStack from "./TechStack"
 const Cards = (props) => {
 
   return (
-      <div className='card break-inside-avoid group relative w-full flex flex-col justify-between gap-2 items-center pb-5 rounded-lg bg-black/20 text-white border-[1px] border-white/20 hover:border-none cursor-pointer overflow-clip lg:shadow-sm lg:hover:shadow-none transition-all duration-500 z-50'>
+      <div className='card break-inside-avoid group relative w-full flex flex-col justify-between gap-2 items-center pb-5 lg:pb-10 rounded-lg bg-black/20 text-white border-[1px] border-white/20 hover:border-none cursor-pointer overflow-clip lg:shadow-sm lg:hover:shadow-none transition-all duration-500 z-50'>
 
           {props.building && <div className="absolute rounded-full flex justify-center items-center px-2 py-2 gap-2 shadow-md bg-[#fff86a] text-black border-[1px] border-black right-2 top-2 z-[2000] cursor-pointer"><LuConstruction /> <span className="text-xs lg:hidden group-hover:flex">Work in Progress</span></div>}
 
@@ -23,7 +23,7 @@ const Cards = (props) => {
             />
           </div>
 
-          <div className='text-center lg:hidden px-4 text-sm'>
+          <div className='mt-2 text-center lg:hidden px-4 text-sm'>
               {props.details}
             <div className='w-full flex gap-4 justify-center align-center mt-4'>
               <Button title={"Demo"} link={props.demoLink}/>
