@@ -5,7 +5,7 @@ const About = () => {
         <h1 className="text-5xl md:text-7xl lg:text-9xl font-extrabold text-[#6aff7f]/50 text-center">About Me</h1>
       </div>
       <div className="about-me-content w-full h-fit bg-[#1d1d1d] text-white py-10 md:py-20 overflow-scroll z-0">
-          <div className=" w-full flex flex-col justify-center items-center h-full px-10 lg:px-32">
+          <div className=" w-full flex flex-col justify-center items-center h-full px-20 lg:px-32">
             <div className="w-full text-sm md:text-xl font-thin text-center">
                 <p id="about" className="about-text tracking-wide lg:leading-9">
 
