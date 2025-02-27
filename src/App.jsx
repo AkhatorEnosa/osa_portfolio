@@ -41,7 +41,7 @@ function App() {
     })
 
   const ourText = new SplitType('p.about-text')
-  const words = ourText.lines
+  const words = ourText.words
 
       gsap.from(words, {
         opacity:0,
@@ -77,14 +77,14 @@ function App() {
         }
       })
 
-      gsap.from(".footer", {
-        opacity: 0,
-        bottom: "-20px",
-        scrollTrigger: {
-          trigger: ".projects",
-          start: "60%"
-        }
-      })
+      // gsap.from(".footer", {
+      //   opacity: 0,
+      //   bottom: "-20px",
+      //   scrollTrigger: {
+      //     trigger: ".projects",
+      //     start: "60%"
+      //   }
+      // })
   })
 
   return (
