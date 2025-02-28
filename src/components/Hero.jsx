@@ -1,7 +1,7 @@
 // import { FaAngleDown} from "react-icons/fa6"
 
 import { 
-  // FaCss3Alt, FaHtml5,
+  FaCss3Alt, FaHtml5,
    FaReact } from "react-icons/fa6"
 import { IoLogoJavascript } from "react-icons/io"
 import { RiTailwindCssFill } from "react-icons/ri"
@@ -22,20 +22,20 @@ const Hero = () => {
                 Osakhogba Akhator
             </h2> 
             <div className="w-full flex justify-center lg:justify-end">
-              <p className="hero-content w-fit px-3 text-2xl md:text-3xl lg:text-4xl uppercase font-medium opacity-0 text-center lg:text-right ">Frontend Web Developer</p>
+              <p className="hero-content w-fit px-3 text-2xl md:text-3xl lg:text-4xl uppercase font-medium opacity-0 text-center lg:text-right ">Frontend Engineer</p>
             </div>
         </div>
         
         <div className="relative top-80 md:top-72 w-full flex justify-center items-center z-20">
           <div className="skills bg-[#09200d]/50 px-10 py-5 rounded-full backdrop-blur-sm lg:w-[50%] flex justify-evenly gap-5 text-2xl text-white/30 translate-y-32 opacity-0">
-            {/* <div className="group relative flex flex-col justify-center items-center hover:text-orange-500 cursor-pointer transition-all duration-200">
+            <div className="group relative flex flex-col justify-center items-center hover:text-orange-500 cursor-pointer transition-all duration-200">
               <FaHtml5/>
               <p className="text-[10px] font-bold hidden group-hover:flex absolute top-5">HTML5</p>
             </div>
             <div className="group relative flex flex-col justify-center items-center hover:text-[#3864b7] cursor-pointer transition-all duration-200">
               <FaCss3Alt/>
               <p className="text-[10px] font-bold hidden group-hover:flex absolute top-5">CSS3</p>
-            </div> */}
+            </div>
             <div className="group relative flex flex-col justify-center items-center hover:text-yellow-400 cursor-pointer transition-all duration-200">
               <IoLogoJavascript/>
               <p className="text-[10px] font-bold hidden group-hover:flex absolute top-5">Javascript</p>

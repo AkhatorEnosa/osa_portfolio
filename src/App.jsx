@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Hero from "./components/Hero";
 import Sidebar from "./components/Sidebar";
 import About from "./components/About";
-import SplitType from "split-type";
+// import SplitType from "split-type";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
@@ -40,17 +40,19 @@ function App() {
       translateY: "0px"
     })
 
-  const ourText = new SplitType('p.about-text')
-  const words = ourText.words
+  // const ourText = new SplitType('p.about-text')
+  // const words = ourText.words
 
-      gsap.from(words, {
+      gsap.from("p.about-text", {
         opacity:0,
+        scale: 0,
         // duration: 0.5, 
         stagger: 0.1, 
         ease: "power3.inOut",
+        duration: 1,
         scrollTrigger: {
           trigger: ".about-me",
-          start: "-80%",
+          start: "0%",
           // toggleActions: "none none none reverse"
         }
       })

@@ -6,10 +6,10 @@ const About = () => {
       </div>
       <div className="about-me-content w-full h-fit bg-[#1d1d1d] text-white py-10 md:py-20 overflow-scroll z-0">
           <div className=" w-full flex flex-col justify-center items-center h-full px-20 lg:px-32">
-            <div className="w-full text-sm md:text-xl font-thin text-center">
-                <p id="about" className="about-text tracking-wide lg:leading-9">
+            <div className="w-full text-sm md:text-xl font-semibold text-center">
+                <p id="about" className="about-text lg:leading-9">
 
-                  I&lsquo;m a <b>Frontend Developer</b> equipped with a <b>B.Sc in Computer Science</b>, with experience in both <b>frontend and backend
+                  I&lsquo;m a <b>Frontend Engineer</b> equipped with a <b>B.Sc in Computer Science</b>, with experience in both <b>frontend and backend
                   development</b>, aimed at constructing applications that are both <b>functional and scalable</b>. I&lsquo;ve familiarized myself with
                   modern frameworks like <b>ReactJS</b> for building responsive user interfaces, <b>TailwindCSS</b> for efficient styling, and <b>Redux
                   Toolkit</b> for state management. On the backend, I&lsquo;ve engaged with <b>Supabase</b>, particularly its <b>PostgreSQL database</b>, to
