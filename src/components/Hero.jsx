@@ -22,7 +22,7 @@ const Hero = () => {
                 Osakhogba Akhator
             </h2> 
             <div className="w-full flex justify-center lg:justify-end">
-              <p className="hero-content w-fit px-3 text-2xl md:text-3xl lg:text-4xl uppercase font-medium opacity-0 text-center lg:text-right ">Frontend Engineer</p>
+              <p className="hero-content w-fit px-3 text-2xl md:text-3xl lg:text-4xl uppercase font-medium opacity-0 text-center lg:text-right ">Frontend Developer</p>
             </div>
         </div>
         

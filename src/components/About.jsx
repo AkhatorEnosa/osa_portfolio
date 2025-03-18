@@ -9,14 +9,7 @@ const About = () => {
             <div className="w-full text-sm md:text-xl font-semibold text-center">
                 <p id="about" className="about-text lg:leading-9">
 
-                  I&lsquo;m a <b>Frontend Engineer</b> equipped with a <b>B.Sc in Computer Science</b>, with experience in both <b>frontend and backend
-                  development</b>, aimed at constructing applications that are both <b>functional and scalable</b>. I&lsquo;ve familiarized myself with
-                  modern frameworks like <b>ReactJS</b> for building responsive user interfaces, <b>TailwindCSS</b> for efficient styling, and <b>Redux
-                  Toolkit</b> for state management. On the backend, I&lsquo;ve engaged with <b>Supabase</b>, particularly its <b>PostgreSQL database</b>, to
-                  manage data effectively. My approach is to contribute to projects by ensuring they meet user needs while maintaining
-                  performance standards. I have a passion for creating user experiences that feel intuitive and solving real-world problems
-                  through technology. I&lsquo;m dedicated to continuous learning, recognizing that staying updated in software engineering is
-                  key to delivering quality work. 
+                <p>I&lsquo;m a <b>Frontend Developer</b> with a <b>B.Sc in Computer Science</b>, passionate about crafting <b>intuitive, responsive, and scalable</b> applications. I specialize in modern tools like <b>ReactJS</b> for sleek user interfaces, <b>TailwindCSS</b> for streamlined styling, and <b>Redux Toolkit</b> for seamless state management. I&lsquo;ve also worked with <b>Supabase</b> and <b>PostgreSQL</b> to integrate robust backend solutions that elevate frontend performance. My goal? Build user-focused experiences that solve real-world problems while keeping code clean and efficient. I&lsquo;m open to <b className="animate animate-bounce">remote work</b> opportunities and thrive on continuous learning to stay ahead in the ever-evolving tech landscape.</p>
                 
                 </p>
             </div>

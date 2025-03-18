@@ -5,7 +5,7 @@ import Card from "./Card"
 import Unscramble from '../assets/unscramble.png'
 // import Kwota from '../assets/kwota.png'
 import Soozeer from '../assets/sooozeer.png'
-import Noet from '../assets/noet.png'
+import myNoet from '../assets/mynoet.png'
 import Moovees from '../assets/moovees.png'
 import Lokateur from '../assets/lokateur.png'
 import Splitter from '../assets/splitter.png'
@@ -44,13 +44,13 @@ const Page = () => {
               />
 
               <Card 
-                heading="Noet" 
-                imagePath={Noet} 
-                imagePath2={Noet} 
-                alt="Noet" 
-                details="Noet is an application meticulously crafted to mirror the spirit of Google Keep, thoughtfully designed to provide users with a swift and seamless platform for capturing their ideas and thoughts with exceptional ease and efficiency, unencumbered by unnecessary complexities."  
+                heading="myNoet" 
+                imagePath={myNoet} 
+                imagePath2={myNoet} 
+                alt="myNoet" 
+                details="myNoet is an application meticulously crafted to mirror the spirit of Google Keep, thoughtfully designed to provide users with a swift and seamless platform for capturing their ideas and thoughts with exceptional ease and efficiency, unencumbered by unnecessary complexities."  
                 stack={['reactjs', 'tanstack query', 'redux toolkit', 'tailwindcss', 'supabase']} 
-                demoLink="https://noet.netlify.app/" 
+                demoLink="https://mynoet.netlify.app/" 
                 building={false}
               // codeLink="https://github.com/AkhatorEnosa/quotes-app"
               />
