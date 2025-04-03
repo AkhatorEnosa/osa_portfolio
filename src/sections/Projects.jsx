@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import Card from "./Card"
+import Card from "../components/Card"
 // import Shaup from '../assets/shaup.png'
 import Unscramble from '../assets/unscramble.png'
 // import Kwota from '../assets/kwota.png'
@@ -14,21 +14,27 @@ import Techkare from '../assets/techkare.png'
 import Foodie2 from '../assets/foodie.png'
 import Foodie from '../assets/foodie.gif'
 import Kickrs from '../assets/kickrs.png'
+import { motion } from "framer-motion"
 
-const Page = () => {
+const Projects = () => {
   const [reveal, setReveal] = useState(false)
 
   return (
-    <section  className='relative projects w-full h-auto z-40 clear-both'>
-      <div className="w-full flex flex-col justify-center items-center py-10 md:py-24 bg-[#1d1d1d] lg:pt-40 px-10 md:px-36">
+    <section  className='relative projects w-full h-auto z-40 clear-both bg-[#1d1d1d] max-w-[1600px]'>
+      <motion.div 
+        initial={{ opacity: 0, translateY: "50px" }}
+        whileInView={{ opacity: 1, translateY: "0px" }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
+        viewport={{ once: false, amount: 0.2 }}
+        className="w-full flex flex-col justify-center items-center py-10 md:py-24 lg:pt-40 px-10 md:px-36">
         <h1 className="text-5xl md:text-7xl lg:text-9xl font-extrabold text-[#6aff7f]/50 text-center">Projects</h1>
-      </div>
-      <div className="projects-content w-full bg-[#1d1d1d] text-[#6aff7f] py-10 md:py-20 overflow-scroll">
+      </motion.div>
+      <div className="projects-content w-full text-[#6aff7f] py-10 md:py-20 overflow-scroll">
         
 
           <div className="w-full flex flex-col justify-center items-center h-full px-0 md:px-10 lg:px-32">
             {/* <div className='w-full md:columns-2 lg:columns-3 gap-4 space-y-10 md:space-y-4 px-12 md:p-5'> */}
-            <div className='w-full grid md:grid-cols-2 lg:grid-cols-3 space-y-10 md:space-y-0 gap-4 px-12 md:p-5'>
+            <div className='w-full grid md:grid-cols-2 lg:grid-cols-3 space-y-10 md:space-y-0 gap-4 px-12 md:p-5 justify-center'>
             {/* <div className='w-full flex flex-wrap gap-4 px-12 md:p-5'> */}
 
               <Card 
@@ -172,7 +178,7 @@ const Page = () => {
   )
 }
 
-export default Page
+export default Projects
 // 6aff7f
 // 003816
 

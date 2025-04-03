@@ -12,7 +12,7 @@ import Avatar from '../assets/avatar.svg'
 
 const Hero = () => {
   return (
-    <section className="hero w-full flex flex-col justify-center h-screen items-center bg-[#1d1d1d] text-[#6aff7f] overflow-hidden">
+    <section className="hero relative max-w-[1600px] w-full flex flex-col justify-center h-screen items-center bg-[#1d1d1d] text-[#6aff7f] overflow-hidden">
         {/* <h1 className="hero-heading text-7xl md:text-9xl tracking-tighter font-extrabold">Hello</h1> */}
         <div className="absolute w-96vw flex flex-col justify-center items-center px-5 md:px-40 gap-2 text-center z-40">
             <div className="w-full flex justify-center lg:justify-start px-5">
@@ -60,7 +60,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <img src={Avatar} alt="My avatar" id="top" className="avatar opacity-0 w-[60%] md:w-[60%] lg:w-[25%] absolute top-28 lg:top-25 lg:right-20 z-0 brightness-75 hover:brightness-90 hover:z-40 hover:scale-105 duration-150 transition-all"/>
+        <img src={Avatar} alt="My avatar" id="top" className="avatar opacity-0 w-[50%] md:w-[60%] lg:w-[25%] 2xl:w-[40%] absolute top-28 lg:top-25 lg:right-20 2xl:top-28 z-0 brightness-75 hover:brightness-90 hover:z-40 hover:scale-105 duration-150 transition-all"/>
     </section>
   )
 }

@@ -1,13 +1,13 @@
-import Projects from "./components/Projects";
 import gsap from 'gsap';
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Hero from "./components/Hero";
-import Sidebar from "./components/Sidebar";
-import About from "./components/About";
+import Nav from './sections/Nav';
+import Sidebar from './sections/Sidebar';
+import Hero from './sections/Hero';
+import About from './sections/About';
+import Projects from './sections/Projects';
+import Footer from './sections/Footer';
 // import SplitType from "split-type";
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
 
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger)
@@ -43,32 +43,32 @@ function App() {
   // const ourText = new SplitType('p.about-text')
   // const words = ourText.words
 
-      gsap.from("p.about-text", {
-        opacity:0,
-        scale: 0,
-        // duration: 0.5, 
-        stagger: 0.1, 
-        ease: "power3.inOut",
-        duration: 1,
-        scrollTrigger: {
-          trigger: ".about-me",
-          start: "0%",
-          // toggleActions: "none none none reverse"
-        }
-      })
+      // gsap.from("p.about-text", {
+      //   opacity:0,
+      //   scale: 0,
+      //   // duration: 0.5, 
+      //   stagger: 0.1, 
+      //   ease: "power3.inOut",
+      //   duration: 1,
+      //   scrollTrigger: {
+      //     trigger: ".about-me",
+      //     start: "0%",
+      //     // toggleActions: "none none none reverse"
+      //   }
+      // })
 
-      gsap.from(".card", {
-        opacity: 0,
-        scale: 0.5,
-        rotate: "10deg",
-        // duration: 1,
-        scrollTrigger: {
-          trigger: ".projects",
-          start: "-10%",
-          end: "bottom bottom",
-          // scrub: true,
-        }
-      })
+      // gsap.from(".card", {
+      //   opacity: 0,
+      //   scale: 0.5,
+      //   rotate: "10deg",
+      //   // duration: 1,
+      //   scrollTrigger: {
+      //     trigger: ".projects",
+      //     start: "-10%",
+      //     end: "bottom bottom",
+      //     // scrub: true,
+      //   }
+      // })
 
       gsap.to(".nav", {
         position: "fixed",
@@ -90,7 +90,7 @@ function App() {
   })
 
   return (
-    <div className="w-full flex flex-col words">
+    <div className="w-full flex flex-col words justify-center items-center bg-[#003816] text-white overflow-hidden">
       <Nav />
       <Sidebar />
       <Hero />
