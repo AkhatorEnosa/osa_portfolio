@@ -11,7 +11,7 @@ const Cards = (props) => {
         initial={{ opacity: 0, translateY: "-30px" }}
         whileInView={{ opacity: 1, translateY: "0px" }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        viewport={{ once: false, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.2 }}
         className='card break-inside-avoid group relative max-w-96 flex flex-col justify-between gap-2 items-center pb-5 lg:pb-10 rounded-lg bg-black/20 text-white border-[1px] border-white/20 hover:border-none cursor-default overflow-clip lg:shadow-sm lg:hover:shadow-none transition-all duration-500 z-50'
       >
 
