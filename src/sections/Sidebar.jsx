@@ -16,7 +16,7 @@ const Sidebar = () => {
             bgColor={"bg-green-700"}
             link={Cv}
             icon={<BsEnvelopePaper className="text-xl lg:text-2xl"/>}
-            variant={"rounded-tl-lg md:rounded-tr-lg"}
+            variant={"rounded-tl-lg md:rounded-tl-none md:rounded-tr-lg"}
           />
           <SideLink 
             title={"Twitter"}
@@ -47,7 +47,7 @@ const Sidebar = () => {
             bgColor={"bg-red-600"}
             link={"mailto:aosakhogba@gmail.com"}
             icon={<MdOutlineAlternateEmail className="text-xl lg:text-2xl"/>}
-            variant={"rounded-tr-lg md:rounded-br-lg"}
+            variant={"rounded-tr-lg md:rounded-tr-none md:rounded-br-lg"}
           />
         </ul>
         <motion.span

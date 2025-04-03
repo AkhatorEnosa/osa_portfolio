@@ -41,7 +41,7 @@ const Cards = (props) => {
 
 
           {/* hover backdrop  */}
-          <div className="hidden lg:block lg:opacity-0 lg:-translate-y-20 project-backdrop absolute w-full h-full group-hover:bg-black/85 group-hover:opacity-100 group-hover:translate-y-0 group-hover:border-2 border-[#6aff7f] rounded-lg transition-all duration-500">
+          <div className="hidden lg:block lg:opacity-0 lg:scale-125 project-backdrop absolute w-full h-full group-hover:bg-black/85 group-hover:opacity-100 group-hover:scale-100 group-hover:border-2 border-[#6aff7f] rounded-lg transition-all duration-500">
             <div className="w-full h-full font-medium flex flex-col justify-center text-center items-center gap-8 px-5 text-sm">
                 <h2 className="w-full text-white">{props.details}</h2>
                 <Button title={"Demo"} link={props.demoLink}/>
