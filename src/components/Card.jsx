@@ -15,7 +15,7 @@ const Cards = (props) => {
         className='card break-inside-avoid group relative max-w-96 flex flex-col justify-between gap-2 items-center pb-5 lg:pb-10 rounded-lg bg-black/20 text-white border-[1px] border-white/20 hover:border-none cursor-default overflow-clip lg:shadow-sm lg:hover:shadow-none transition-all duration-500 z-50'
       >
 
-          {props.building && <div className="absolute rounded-full flex justify-center items-center px-2 py-2 gap-2 shadow-md bg-[#fff86a] text-black border-[1px] border-black right-2 top-2 z-[2000] cursor-pointer"><LuConstruction /> <span className="text-xs lg:hidden group-hover:flex">Work in Progress</span></div>}
+          {props.building && <div className="absolute rounded-md flex justify-center items-center px-2 py-2 gap-2 shadow-md bg-[#FFCC00] text-black border-[1px] border-black right-2 top-2 z-[2000] transition-all duration-150 cursor-pointer"><LuConstruction /> <span className="text-[10px] font-semibold lg:hidden lg:group-hover:flex">Work in Progress</span></div>}
 
           <div className='relative w-full overflow-hidden rounded-lg'>
             <img src={props.imagePath2} alt={props.alt} className='group-hover:scale-125 h-52 w-full object-cover transition-all duration-500 '/>

@@ -7,12 +7,13 @@ import Unscramble from '../assets/unscramble.png'
 import Soozeer from '../assets/sooozeer.png'
 import myNoet from '../assets/mynoet.png'
 import Moovees from '../assets/moovees.png'
+import doTaska from '../assets/dotaska.png'
 import Lokateur from '../assets/lokateur.png'
 import Splitter from '../assets/splitter.png'
 import Genotype from '../assets/gmc.png'
 import Techkare from '../assets/techkare.png'
-import Foodie2 from '../assets/foodie.png'
-import Foodie from '../assets/foodie.gif'
+// import Foodie2 from '../assets/foodie.png'
+// import Foodie from '../assets/foodie.gif'
 import Kickrs from '../assets/kickrs.png'
 import { motion } from "framer-motion"
 
@@ -78,14 +79,14 @@ const Projects = () => {
                 <>
 
                 <Card 
-                  heading="Foodie Land" 
-                  imagePath={Foodie} 
-                  imagePath2={Foodie2} 
-                  alt="foodie land" 
-                  details="Explore a user-friendly platform for discovering delicious recipes, built with Next.js. Featuring responsive design, this website delivers fast load times and seamless navigation. Perfect for food enthusiasts, it combines modern technology with culinary inspiration" 
-                  stack={['nextJs', 'tailwindCss']} 
-                  demoLink="https://foodeeland.netlify.app/" 
-                  building={false}
+                  heading="DoTaska" 
+                  imagePath={doTaska} 
+                  imagePath2={doTaska} 
+                  alt="DoTaska" 
+                  details="is a sleek task management tool that delivers a client-side experience with dynamic, animated UI components. Blazing fast via Netlify’s CDN, it boasts a polished, responsive design that blends Tailwind’s precision with Motion’s smooth animations which aim to make task management fast and easy." 
+                  stack={['reactjs', 'typescript', 'motion', 'tailwindCss']} 
+                  demoLink="https://dotaska.netlify.app/" 
+                  building={true}
                 // codeLink="https://github.com/AkhatorEnosa/foodie_land"
                 />
 
@@ -102,6 +103,18 @@ const Projects = () => {
                   />
 
                   <Card 
+                    heading="Splitter" 
+                    imagePath={Splitter} 
+                    imagePath2={Splitter} 
+                    alt="Splitter" 
+                    details="A user-friendly web application designed to simplify splitting bills between two or more people, including optional tip calculations. Built with HTML, CSS, and JavaScript, it offers a clean and intuitive interface for quick and accurate bill division." 
+                    stack={['html', 'css', 'javascript']} 
+                    demoLink="https://splitify.netlify.app/" 
+                    building={false}
+                  // codeLink="https://github.com/AkhatorEnosa/bill-splitter-app"
+                  />
+
+                  <Card 
                     heading="Lokateur" 
                     imagePath={Lokateur} 
                     imagePath2={Lokateur} 
@@ -114,15 +127,16 @@ const Projects = () => {
                   />
 
                   <Card 
-                    heading="Splitter" 
-                    imagePath={Splitter} 
-                    imagePath2={Splitter} 
-                    alt="Splitter" 
-                    details="A user-friendly web application designed to simplify splitting bills between two or more people, including optional tip calculations. Built with HTML, CSS, and JavaScript, it offers a clean and intuitive interface for quick and accurate bill division." 
+                    heading="Genotype Matching App" 
+                    imagePath={Genotype} 
+                    imagePath2={Genotype} 
+                    alt="Genotype" 
+                    details="The idea that birthed this project is to assist couples in determining if their genotypes are compatible for their future children. Designed with simplicity and accuracy in mind, it provides quick insights to support informed family planning decisions.
+                    " 
                     stack={['html', 'css', 'javascript']} 
-                    demoLink="https://splitify.netlify.app/" 
+                    demoLink="https://akhatorenosa.github.io/genotype_match_checker" 
                     building={false}
-                  // codeLink="https://github.com/AkhatorEnosa/bill-splitter-app"
+                  // codeLink="https://github.com/AkhatorEnosa/genotype-match-checker"
                   />
 
                   <Card 
@@ -147,19 +161,6 @@ const Projects = () => {
                     demoLink="https://kickrs.netlify.app/" 
                     building={false}
                   // codeLink="https://github.com/AkhatorEnosa/product-page"
-                  />
-
-                  <Card 
-                    heading="Genotype Matching App" 
-                    imagePath={Genotype} 
-                    imagePath2={Genotype} 
-                    alt="Genotype" 
-                    details="The idea that birthed this project is to assist couples in determining if their genotypes are compatible for their future children. Designed with simplicity and accuracy in mind, it provides quick insights to support informed family planning decisions.
-                    " 
-                    stack={['html', 'css', 'javascript']} 
-                    demoLink="https://akhatorenosa.github.io/genotype_match_checker" 
-                    building={false}
-                  // codeLink="https://github.com/AkhatorEnosa/genotype-match-checker"
                   />
                 </>
 
